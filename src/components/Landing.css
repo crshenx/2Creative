@@ -34,24 +34,33 @@
     margin-top: .2rem;
 }
 
-.nav__mobile {
+.nav__mobile-open{
+    display: none;
+}
+
+.nav__mobile-closed {
+    display: none;
+}
+
+.nav__mobile-expand-button{
     display: none;
 }
 
 @media (max-width: 45rem) {
-    .nav{
+    .nav {
         display: none;
     }
-    .nav__mobile {
-        display: block;
+    .nav__mobile-expand-button {
+        display: contents;
+        position: fixed;
+
     }
-    .nav__mobile-item{
-        
-      
+    .nav__mobile-open {
+        display: block;
+        position:absolute;
+        margin-top: 1rem;
+    }
+    .nav__mobile-closed {
+        display: none;
     }
 }
-
-/* .nav__item-last{
-    align-self: center;
-    margin-top: .2rem;
-} */
