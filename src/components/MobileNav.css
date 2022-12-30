@@ -1,0 +1,15 @@
+@media (max-width: 45rem) {
+  
+    .nav__mobile-expand-button {
+        display: inline;
+        position: fixed;
+    }
+    .nav__mobile-open {
+        display: block;
+        position:absolute;
+        margin-top: 1rem;
+    }
+    .nav__mobile-closed {
+        display: none;
+    }
+}

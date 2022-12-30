@@ -50,17 +50,4 @@
     .nav {
         display: none;
     }
-    .nav__mobile-expand-button {
-        display: contents;
-        position: fixed;
-
-    }
-    .nav__mobile-open {
-        display: block;
-        position:absolute;
-        margin-top: 1rem;
-    }
-    .nav__mobile-closed {
-        display: none;
-    }
 }
