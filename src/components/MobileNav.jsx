@@ -8,7 +8,7 @@ function MobileNav({ mobileNavItems }) {
     console.log(mobileMenuOpen);
   }
   return (
-    <div>
+    <div className="nav__mobile-container">
       <div className="nav__mobile-expand-button" onClick={openMobileMenu}>
         ☰
       </div>
