@@ -1,6 +1,7 @@
 @media (max-width: 45rem) {
     .nav__mobile-container{
-        position: sticky
+        position: sticky;
+        
     }
     .nav__mobile-expand-button {
         display: inline;
