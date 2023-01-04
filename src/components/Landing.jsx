@@ -6,12 +6,14 @@ import NavBar from "./NavBar";
 function Landing() {
   return (
     <div className="landing">
-      <div className="landing__title-parent">
-        <div className="landing__title">+2 Creative</div>
-        <div className="landing__subtitle">by Alisha Hendricks</div>
+      <div className="landing__title-and-nav">
+        <div className="landing__title-parent">
+          <div className="landing__title">+2 Creative</div>
+          <div className="landing__subtitle">by Alisha Hendricks</div>
+        </div>
+        {/* <Socials /> */}
+        <NavBar />
       </div>
-      {/* <Socials /> */}
-      <NavBar />
       <hr className="title__divider"></hr>
     </div>
   );
