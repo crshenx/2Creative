@@ -46,7 +46,7 @@ function NavBar() {
   });
 
   return (
-    <div>
+    <div className="nav__wrapper">
       <div className="nav">{navItems}</div>
       <MobileNav mobileNavItems={mobileNavItems} />
     </div>
