@@ -5,7 +5,6 @@ function NavBar() {
   const services = [
     "Bridal Concierge",
     "Event Planning",
-    "A la Carte",
     "Testimonials",
     "A Spontaneous Rythm",
     "Contact",

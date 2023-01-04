@@ -1,10 +1,17 @@
-
-.landing__title {
+.landing__title-parent{
     text-align: center;
+}
+
+.logo{
+    width: 23%;
+}
+.landing__title {
+    /* text-align: center; */
     font-size: 6rem;
-    margin-top: 1.3rem;
+    /* margin-top: 1rem; */
     font-family: 'Bangers', cursive;
     font-family: 'Passions Conflict', cursive;
+    /* order: 1; */
 }
 
 .landing__subtitle{
@@ -16,7 +23,6 @@
     display: flex;
     justify-content: center;
     
-    margin-top: -1rem;
 }
 
 .nav__item-parent{
@@ -26,24 +32,21 @@
 
 .nav__item{
     display: inline-block;
-    font-size: 2rem;
-    font-family: 'Bangers', cursive;
-font-family: 'Passions Conflict', cursive;
+    font-size: 1.2rem;
+    font-family: 'Cormorant SC', serif;
 }
 
 .nav__divider{
     display: inline-block;
-    
-   margin: .5rem;
+    margin: .5rem;
 }
 
 .nav__item-parent-last{
     display: flex;
     align-self: center;
     margin-top: .2rem;
-    font-size: 2rem;
-    font-family: 'Bangers', cursive;
-font-family: 'Passions Conflict', cursive;
+    font-size: 1.2rem;
+    font-family: 'Cormorant SC', serif;
 }
 
 .nav__mobile-open{

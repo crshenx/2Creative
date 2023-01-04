@@ -1,20 +1,41 @@
-
 .main__profile{
-    background: url('../assets/BouqueBackround.jpg') 20% 60% / cover no-repeat border-box;
+    background-image: url('../assets/PaintBanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     opacity: .8;
-    background-size: 100%;
-    margin-left: 10%;
-    width: 80%;
-    background-position: center center;
+    background-origin: border-box;
+    /* background-size: 100%; */
+    width: 100%;
     height: 40vh;
-    /* border-radius: 150%/5%  5%  5%  5%; */
+    position: relative;
+}
+/* right 5% top 5%/ cover no-repeat border-box; */
+
+
+.boxthing{
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 28vh;
+    opacity: .9;
+}
+
+.main__welcome {
+    text-align: center;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 20%;
+    font-size: 10;
+    background: rgba(255, 255, 255, 0);
 }
 
 .main__hey-there{
-    position: absolute;
+    position: relative;
+    text-align: center;
     background: rgba(255, 255, 255, 0);
-    
-    margin-top: 10%;
+    padding-top: 10%;
+    border: 50px solid pink;
 }
 
 .main__profile-pic{

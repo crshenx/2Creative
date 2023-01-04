@@ -1,13 +1,20 @@
 import React from "react";
 import "./MainLandingContent.css";
 import Sunset from "../assets/sunsetZoom2.jpg";
-// import Bouque from "../assets/BouqueBackround.jpg";
+// import boxthing from "../assets/PaintSwatch2.png";
 
 function MainLandingContent() {
   return (
     <>
       <div className="main__profile">
-        <h1 className="main__hey-there">hey there</h1>
+        <div className="main__box-container">
+          {/* <h1 className="main__hey-there">hey there</h1> */}
+          {/* <img src={boxthing} alt="boxthing" className="boxthing" /> */}
+          <p className="main__welcome">
+            Uniquely You wedding & Event Assistance
+          </p>
+          {/* <div className="background__boxthing"></div> */}
+        </div>
       </div>
       <div className="main__profile-pic">
         <img className="img__profile" src={Sunset} alt="AlishaProfilePic" />
