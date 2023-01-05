@@ -19,8 +19,8 @@ function NavBar() {
   let navItems = services.map((service, i) => {
     if (i === services.length - 1) {
       return (
-        <div className={`nav__item-parent-last`} key={i}>
-          <div className={`nav__item-last`} onClick={scrollToItem}>
+        <div className={`nav__item-parent`} key={i}>
+          <div className={`nav__item`} onClick={scrollToItem}>
             {service}
           </div>
         </div>
@@ -45,7 +45,7 @@ function NavBar() {
   });
 
   return (
-    <div className="nav__wrapper">
+    <div style={{ position: "sticky", top: 0 }}>
       <div className="nav">{navItems}</div>
       <MobileNav mobileNavItems={mobileNavItems} />
     </div>

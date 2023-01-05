@@ -10,9 +10,9 @@ function MainLandingContent() {
         <div className="main__box-container">
           {/* <h1 className="main__hey-there">hey there</h1> */}
           {/* <img src={boxthing} alt="boxthing" className="boxthing" /> */}
-          <p className="main__welcome">
+          {/* <p className="main__welcome">
             Uniquely You wedding & Event Assistance
-          </p>
+          </p> */}
           {/* <div className="background__boxthing"></div> */}
         </div>
       </div>

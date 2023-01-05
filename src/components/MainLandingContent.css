@@ -1,53 +1,30 @@
+html {
+    height: 10000px;
+    overflow: auto;
+}
+
 .main__profile{
-    background-image: url('../assets/PaintBanner.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: .8;
-    background-origin: border-box;
-    /* background-size: 100%; */
+    background: url('../assets/AlishaBanner4.jpg') center top / contain no-repeat border-box;
     width: 100%;
-    height: 40vh;
-    position: relative;
+    height: 50rem;
 }
-/* right 5% top 5%/ cover no-repeat border-box; */
-
-
-.boxthing{
-    width: 60%;
-    text-align: center;
-    position: absolute;
-    margin-top: 4vh;
-    margin-left: 28vh;
-    opacity: .9;
-}
-
-.main__welcome {
-    text-align: center;
-    position: absolute;
-    margin-top: 3%;
-    margin-left: 20%;
-    font-size: 10;
-    background: rgba(255, 255, 255, 0);
-}
-
+  
 .main__hey-there{
-    position: relative;
-    text-align: center;
+    position: absolute;
     background: rgba(255, 255, 255, 0);
-    padding-top: 10%;
-    border: 50px solid pink;
+    
+    margin-top: 10%;
 }
 
 .main__profile-pic{
-    position: relative;
+    /* position: relative;
     display: inline-block;
     margin-top: 1%;
     margin-left: 10%;
     border-radius: 100% / 65% 65% 0 0;
-    /* border-radius: 90% / 65% 65% 0 0; */
     background-color: #a99c8c;
     z-index: 10;
-    object-fit: cover;
+    object-fit: cover; */
 }
 .img__profile {
     display: block;

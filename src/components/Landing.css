@@ -1,52 +1,51 @@
+.landing{
+    padding: 0 18.5%;
+}
+
 .landing__title-parent{
     text-align: center;
+    position: relative; 
 }
 
 .logo{
+    height: auto;
     width: 23%;
-}
-.landing__title {
-    /* text-align: center; */
-    font-size: 6rem;
-    /* margin-top: 1rem; */
-    font-family: 'Bangers', cursive;
-    font-family: 'Passions Conflict', cursive;
-    /* order: 1; */
-}
-
-.landing__subtitle{
-    text-align: center;
-    font-size: large;
+    max-width: 350px;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
 }
 
 .nav{
     display: flex;
     justify-content: center;
-    
+    /* padding: 0 16%; */
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
+    height: auto;
 }
 
 .nav__item-parent{
-    display: inline-block;
-    
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: .3rem;
+    position: sticky;
+    align-self: flex-start;
 }
 
 .nav__item{
-    display: inline-block;
-    font-size: 1.2rem;
+    display: flex;
+    font-size: 1.5rem;
     font-family: 'Cormorant SC', serif;
 }
 
 .nav__divider{
-    display: inline-block;
-    margin: .5rem;
-}
-
-.nav__item-parent-last{
     display: flex;
-    align-self: center;
-    margin-top: .2rem;
-    font-size: 1.2rem;
-    font-family: 'Cormorant SC', serif;
+    /* margin: .5rem; */
+    justify-self: space-around;
+    align-items: center;
 }
 
 .nav__mobile-open{
@@ -56,6 +55,7 @@
 .nav__mobile-closed {
     display: none;
 }
+
 
 .nav__mobile-expand-button{
     display: none;
