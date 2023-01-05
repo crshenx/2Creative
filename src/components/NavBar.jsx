@@ -1,5 +1,6 @@
 import React from "react";
 import MobileNav from "./MobileNav";
+import "../css/NavBar.css";
 
 function NavBar() {
   const services = [

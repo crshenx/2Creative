@@ -1,0 +1,32 @@
+.landing{
+    padding: 0 18.5%;
+}
+
+.landing__title-parent{
+    text-align: center;
+    position: relative; 
+}
+
+.logo{
+    height: auto;
+    width: 23%;
+    max-width: 350px;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.main__profile{
+    background: url('../assets/AlishaBanner4.jpg') center top / contain no-repeat border-box;
+    width: 100%;
+    height: 50rem;
+}
+
+.title_divider {
+    border: 0;
+    clear: both;
+    display: block;
+    margin: 2.4rem auto;
+    text-align: center;
+    width: 100%;
+    
+}

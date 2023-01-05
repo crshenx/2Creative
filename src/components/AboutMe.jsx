@@ -1,26 +1,11 @@
 import React from "react";
-import "./MainLandingContent.css";
-import Sunset from "../assets/sunsetZoom2.jpg";
-// import boxthing from "../assets/PaintSwatch2.png";
+import "../css/AboutMe.css";
 
-function MainLandingContent() {
+function AboutMe() {
   return (
     <>
-      <div className="main__profile">
-        <div className="main__box-container">
-          {/* <h1 className="main__hey-there">hey there</h1> */}
-          {/* <img src={boxthing} alt="boxthing" className="boxthing" /> */}
-          {/* <p className="main__welcome">
-            Uniquely You wedding & Event Assistance
-          </p> */}
-          {/* <div className="background__boxthing"></div> */}
-        </div>
-      </div>
-      <div className="main__profile-pic">
-        <img className="img__profile" src={Sunset} alt="AlishaProfilePic" />
-      </div>
       <div className="main__profile-text">
-        <p className="text">
+        <p className="main__text">
           I photograph people in love. It is actually that simple. It is also
           where my agenda starts and ends. Nothing more, nothing less. I adore
           photography and I am so blessed to do this as my full-time job, it is
@@ -40,4 +25,4 @@ function MainLandingContent() {
   );
 }
 
-export default MainLandingContent;
+export default AboutMe;
