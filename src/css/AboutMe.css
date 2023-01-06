@@ -1,17 +1,9 @@
-.main__profile-text{
-    margin-left: 40%;
-    margin-right: 12%;
-    margin-top: 4rem;
-    z-index: 100;
+.about-me__pic{
+   width: 30vh;
 }
 
-.text{
-    font-size: 2.2rem;
-    font-family: 'Passions Conflict', cursive;
-}
-
-@media (max-width: 45rem){
-    .main__profile{
-        height: 30vh;
+@media (min-width: 41.932rem){
+    .about-me__pic{
+        width: 40vh;
     }
 }

@@ -6,12 +6,12 @@ import logo from "../assets/Logo.jpg";
 
 function Home() {
   return (
-    <div className="landing">
-      <div className="landing__title-parent">
-        <img src={logo} className="logo" />
+    <div className="home">
+      <div className="home__title">
+        <img src={logo} className="home__title-logo" />
       </div>
       <NavBar />
-      <div className="main__profile"></div>
+      <div className="home__banner"></div>
       <AboutMe />
     </div>
   );

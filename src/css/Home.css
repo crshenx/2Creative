@@ -1,32 +1,38 @@
-.landing{
-    padding: 0 18.5%;
-}
 
-.landing__title-parent{
+.home__title{
     text-align: center;
     position: relative; 
 }
 
-.logo{
+.home__title-logo{
     height: auto;
-    width: 23%;
+    width: 19vh;
     max-width: 350px;
     margin-top: 2rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0rem;
 }
 
-.main__profile{
+.home__banner{
     background: url('../assets/AlishaBanner4.jpg') center top / contain no-repeat border-box;
     width: 100%;
-    height: 50rem;
+    height: 0;
+    padding-top: 50%;
 }
 
-.title_divider {
-    border: 0;
-    clear: both;
-    display: block;
-    margin: 2.4rem auto;
-    text-align: center;
-    width: 100%;
+@media (min-width: 41.932rem){
+    .home__title-logo{
+        width: 18vh;
+    }
+
+    
+}
+
+@media (min-width: 76.704rem) {
+    .home{
+        padding: 0 17.5%;
+    }
+    .home__title-logo{
+        width: 23vh;
+    }
     
 }

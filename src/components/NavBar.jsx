@@ -46,7 +46,7 @@ function NavBar() {
   });
 
   return (
-    <div style={{ position: "sticky", top: 0 }}>
+    <div className="nav__wrapper">
       <div className="nav">{navItems}</div>
       <MobileNav mobileNavItems={mobileNavItems} />
     </div>
