@@ -1,9 +1,23 @@
+.about-me{
+    display: inline;
+}
+
 .about-me__pic{
-   width: 30vh;
+   width: 100%;
+   display: inline;
+}
+
+.about-me__title{
+    width: 100%;
+    z-index: -100;
+}
+
+.about-me__text{
+    width:100%;
 }
 
 @media (min-width: 41.932rem){
     .about-me__pic{
-        width: 40vh;
+        width: 60vh;
     }
 }
