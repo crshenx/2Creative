@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./MobileNav.css";
+import "../css/NavBar.css";
 
 function MobileNav({ mobileNavItems }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

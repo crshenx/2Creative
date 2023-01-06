@@ -1,11 +1,11 @@
 import React from "react";
 import MobileNav from "./MobileNav";
+import "../css/NavBar.css";
 
 function NavBar() {
   const services = [
     "Bridal Concierge",
     "Event Planning",
-    "A la Carte",
     "Testimonials",
     "A Spontaneous Rythm",
     "Contact",
@@ -20,8 +20,8 @@ function NavBar() {
   let navItems = services.map((service, i) => {
     if (i === services.length - 1) {
       return (
-        <div className={`nav__item-parent-last`} key={i}>
-          <div className={`nav__item-last`} onClick={scrollToItem}>
+        <div className={`nav__item-parent`} key={i}>
+          <div className={`nav__item`} onClick={scrollToItem}>
             {service}
           </div>
         </div>

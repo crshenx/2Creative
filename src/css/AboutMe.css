@@ -1,0 +1,9 @@
+.about-me__pic{
+   width: 30vh;
+}
+
+@media (min-width: 41.932rem){
+    .about-me__pic{
+        width: 40vh;
+    }
+}
