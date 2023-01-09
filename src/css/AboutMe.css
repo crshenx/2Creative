@@ -1,23 +1,80 @@
 .about-me{
-    display: inline;
+    
 }
 
-.about-me__pic{
-   width: 100%;
-   display: inline;
+.about-me__title-container{
+    text-align: center;
+    padding-top: 1rem;
 }
 
 .about-me__title{
-    width: 100%;
-    z-index: -100;
+    width: 80%;
+    height: auto;
+    text-align: center;
 }
 
-.about-me__text{
-    width:100%;
+
+
+.about-me__background-pic {
+    background: url('../assets/AboutMeTextBackground.jpg') center top / cover no-repeat border-box;
+    width: 100%;
+    height: auto;
 }
+.about-me__pic{
+    width: 35%;
+    height: auto;
+    border-radius: 5%;
+    margin: 2.5rem .5rem 0rem 1rem;
+    float: left;
+}
+.about-me__hey-container{
+    background-color: rgba(0, 0, 0, 0);
+}
+.about-me__text{
+    background-color: rgba(0, 0, 0, 0);
+}
+.about-me__hey{
+    padding-top: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 11rem;
+    font-family: 'Passions Conflict', cursive;
+    font-weight: 100;
+}
+
+.about-me__hey-there{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 4rem;
+    font-family: 'Passions Conflict', cursive;
+    padding-left: 16rem;
+    position: absolute;
+    margin: -10% 17%;
+}
+
+.about-me__text-content{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 1% 16%;
+    padding-left: 1rem;
+    font-family: 'Gilda Display', serif;
+    font-size: 1.5em;
+    /* font-family: 'Pinyon Script', cursive; */
+}
+
 
 @media (min-width: 41.932rem){
+    .about-me__content{
+        margin-top: 4.5rem;
+        /* display: flex;
+        align-items: flex-start;
+        overflow: hidden; */
+    }
+    
     .about-me__pic{
-        width: 60vh;
+        width: 30%;
+        border-radius: 5%;
+    }
+    
+    .about-me__text{
+        width: 50%;
+     
     }
 }

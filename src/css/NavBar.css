@@ -10,6 +10,7 @@
     margin-top: 8vh;
     font-size: 1.8rem;
     color: dimgray;
+    background-color: rgba(0, 0, 0, 0);
 }
 .nav__mobile-open {
     display: flex;

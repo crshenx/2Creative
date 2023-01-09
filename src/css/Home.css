@@ -1,3 +1,6 @@
+.home{
+    height: 5000px;
+}
 
 .home__title{
     text-align: center;
@@ -15,7 +18,7 @@
 .home__banner{
     background: url('../assets/AlishaBanner4.jpg') center top / contain no-repeat border-box;
     width: 100%;
-    height: 0;
+    height: auto;
     padding-top: 50%;
 }
 
