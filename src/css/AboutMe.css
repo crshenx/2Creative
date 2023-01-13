@@ -18,12 +18,12 @@
 
 
 .about-me__background-pic {
-    background: url('../assets/AboutMeTextBackground.jpg') center top / cover no-repeat border-box;
-    width: min(100%);
+    background: url('../assets/AboutMeTextBackground.jpg')  center/ cover no-repeat;
+    /* width: 100%;
     height: auto;
-    position: relative;
+    position: relative; */
 }
-
+/*
 .about-me__pic{
     width: 23%;
     height: auto;
@@ -35,8 +35,6 @@
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     top: -1rem;
-    /* left: 29%; */
-    /* text-align: center; */
     right: 5rem;
     font-size: clamp(6rem, 5rem + 10vw, 20rem);
     color: #faf9f5;
@@ -64,8 +62,6 @@
 .about-me_text-container{
     background-color: rgba(0,0,0,0);
     text-align: left;
-    /* height: 29%; */
-    /* padding-left: 5%; */
     padding-top: 35%;
     margin: 0rem 1.3rem;
     font-size: clamp(.5rem, .1rem + 4vw, 1.5rem);
@@ -74,7 +70,6 @@
 .about-me__text-p1{
     background-color: rgba(0, 0, 0, 0);
     font-family: 'Gilda Display', serif;
-    /* font-size: 4vw; */
     padding-bottom: 1rem;
     font-size: clamp(.5rem, .1rem + 4vw, 1rem);
     color: #b09882;
@@ -82,7 +77,6 @@
 .about-me__text-p2{
     background-color: rgba(0, 0, 0, 0);
     font-family: 'Gilda Display', serif;
-    /* font-size: 4vw; */
     padding-bottom: 1rem;
     font-size: clamp(.5rem, .1rem + 4vw, 1rem);
     color: #b09882;
@@ -90,7 +84,6 @@
 .about-me__text-p3{
     background-color: rgba(0, 0, 0, 0);
     font-family: 'Gilda Display', serif;
-    /* font-size: 4vw; */
     padding-bottom: 1rem;
     font-size: clamp(.5rem, .1rem + 4vw, 1rem);
     color: #b09882;
@@ -98,8 +91,6 @@
 .about-me__text-p4{
     background-color: rgba(0, 0, 0, 0);
     font-family: 'Gilda Display', serif;
-    /* font-size: 4vw; */
-    /* padding-bottom: 6rem; */
     font-size: clamp(.5rem, .1rem + 4vw, 1rem);
     color: #b09882;
 }
@@ -110,13 +101,11 @@
     background: rgba(0,0,0,0);
     color: #faf9f5;
     position: relative;
-    /* font-size: clamp(1rem, 5rem + 10vw, 4rem); */
 }
 
 .about-xoxo{
     background: rgba(0,0,0,0);
     font-family: 'Passions Conflict', cursive;
-    /* display: inline; */
     font-size: 6rem;
     top: -3rem;
     right: 5rem;
@@ -142,7 +131,6 @@
     .about-me__hey-container{
         left: 30%;
         top: 1%;
-        /* font-size: 16rem; */
     }
     
     .about-me__hey{
@@ -165,8 +153,6 @@
         font-size: 1.5rem;
         padding: 0rem 13%;
         padding-bottom: 25%;
-        /* padding-top: 19%; */
-        /* font-size: clamp(.5rem, 1rem + 10vw, 2rem);*/
     }
 
     .about-me__text-p1{
@@ -201,6 +187,7 @@
 
     .about-me__background-pic{
         width: 100%;
+        background: url('../assets/AboutMeTextBackground.jpg') center top / contain no-repeat border-box;
     }
     .about-me__title-container{
         padding-bottom: 4rem;
@@ -239,8 +226,6 @@
         font-size: 1.5rem;
         padding: 0rem 13%;
         padding-bottom: 25%;
-        /* padding-top: 19%; */
-        /* font-size: clamp(.5rem, 1rem + 10vw, 2rem);*/
     }
 
     .about-me__text-p1{
@@ -270,4 +255,139 @@
         font-size: 9rem;
     }
 
+}
+*/
+
+.about-me__hey-container{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: #faf9f5;
+    padding-top: 2rem;
+}
+
+.about-me__hey{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 100;
+    position: relative;
+    font-family: 'Passions Conflict', cursive;
+    font-size: clamp(5rem, 5rem + 10vw, 20rem);
+    display: inline;
+    
+}
+
+.about-me__there{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 100;
+    font-family: 'Passions Conflict', cursive;
+    position: relative;
+    top: 2rem;
+    font-size: clamp(2rem, 5rem + 10vw, 10rem);
+    display: inline;
+    left: -1rem;
+}
+.about-me__pic-and-text-container{
+    background-color: rgba(0,0,0,0);
+    /* width: 80%; */
+    /* padding-left: 20%; */
+    /* height: 130vh; */
+    margin: 0rem 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.about-me__pic{
+    width: 36%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 37%;
+}
+
+.about-me_text-container{
+    background-color: rgba(0,0,0,0);
+}
+
+.about-me__text-p1{
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Gilda Display', serif;
+    padding-bottom: 1rem;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    color: #b09882;
+}
+
+.about-me__text-p2{
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Gilda Display', serif;
+    padding-bottom: 1rem;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    color: #b09882;
+}
+
+.about-me__text-p3{
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Gilda Display', serif;
+    padding-bottom: 1rem;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    color: #b09882;
+}
+.about-me__text-p4{
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Gilda Display', serif;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    color: #b09882;
+}
+
+.about-xoxo-container{
+    padding-bottom: 4rem;
+    text-align: right;
+    background: rgba(0,0,0,0);
+    color: #faf9f5;
+    position: relative;
+}
+
+.about-xoxo{
+    background: rgba(0,0,0,0);
+    font-family: 'Passions Conflict', cursive;
+    font-size: 6rem;
+    top: -3rem;
+    right: 5rem;
+    position: relative;
+}
+
+.about-xo-alisha{
+    background: rgba(0,0,0,0);
+    font-family: 'Passions Conflict', cursive;
+    display: inline;
+    top: -6rem;
+    right: 1rem;
+    font-size: 4rem;
+    position: relative;
+}
+
+@media (min-width: 41.932rem){
+
+    .about-me__background-pic {
+        background: url('../assets/AboutMeTextBackground.jpg') center / contain no-repeat;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .about-me__pic-and-text-container{
+        background-color: rgba(0,0,0,0);
+        margin: 0rem 24%;
+    }
+    .about-me__pic {
+        width: 22%;
+        float: left;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 37%;
+    }
+    .about-me_text-container{
+        background-color: rgba(0,0,0,0);
+        margin: 1rem 1rem;
+    }
+    
+    .about-xoxo-container {
+        padding-bottom: 15%;
+    }
 }
