@@ -1,6 +1,119 @@
 .concierge{
-    /* background-color: #f1e8e0; */
     height: 500px;
+    margin-top: 6rem;
     position: relative;
+}
+
+.paintSwatch1{
+    width: 68%;
+    position: absolute;
+    top: -3rem;
+    left: 4rem;
+    z-index: 1;
+    transform: rotate(90deg);
+}
+
+.concierge__title-box{
+    width: 80%;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+    /* background-color: #f1e8e0; */
+    /* height: 10rem; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* border-radius: 50%; */
     text-align: center;
+    background-color: rgba(0,0,0,0);
+    color: #a98b70;
+    margin-top: 0rem;
+    padding-top: 1.5rem;
+    margin-bottom: 4rem;
+    
+    /* font-family: 'Gilda Display', serif; */
+    font-family: 'Cormorant SC';
+}
+
+.concierge__title1{
+    background-color: rgba(0,0,0,0);
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: -1rem;
+    
+    font-family: 'Passions Conflict', cursive;
+    text-align: center;
+}
+.concierge__title2{
+    background-color: rgba(0,0,0,0);
+    font-size: 3.5rem;
+    /* text-align: left; */
+}
+.concierge__title3{
+    background-color: rgba(0,0,0,0);
+    margin-top: -2rem;
+    font-size: 3.5rem;
+    /* text-align: left; */
+}
+
+.ConciergeMainPhoto{
+    width: 100%;
+    padding-top: 3rem;
+    z-index: 5;
+}
+
+.concierge__text-container{
+    background-color: #f1e8e0;
+    padding: 1rem;
+    border: .5rem #fcfaf6 solid;
+    text-align: center;
+    border-radius: 3rem;
+    color: #a98b70;
+    font-family: 'Gilda Display', serif;
+    /* font-family: 'Cormorant SC'; */
+    font-style: normal;
+    font-weight: 300;
+}
+
+.concierge__text-p1{
+    background-color: #f1e8e0;
+    /* padding: 1rem 1rem 1rem 0rem; */
+    /* text-indent: 1rem; */
+}
+.concierge__text-p2{
+    background-color: #f1e8e0;
+    /* text-indent: 1rem; */
+    /* color: #fcfaf6;
+    font-size: 4rem;    
+    font-family: 'Passions Conflict', cursive; */
+    padding: 1rem 0rem;
+}
+.concierge__text-p3{
+    background-color: #f1e8e0;
+    /* text-indent: 1rem; */
+    padding-bottom: 1rem;
+}
+.concierge__text-p4{
+    background-color: #f1e8e0;
+    /* text-indent: 1rem; */
+    padding-bottom: 1rem;
+}
+.concierge__text-p5{
+    background-color: #f1e8e0;
+    /* text-indent: 1rem; */
+    padding-bottom: 1rem;
+}
+.concierge__text-p6{
+    background-color: #f1e8e0;
+    /* text-indent: 1rem; */
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 41.932rem){
+    .paintSwatch1{
+        width: 40%;
+        position: absolute;
+       text-align: center;
+    }
 }
