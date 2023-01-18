@@ -2,6 +2,7 @@ import React from "react";
 import "../css/BridalConcierge.css";
 import ConciergeMainPhoto from "../assets/ConciergeMainPhoto.jpg";
 import paintSwatch1 from "../assets/splooge1.jpg";
+
 function BridalConcierge() {
   return (
     <div className="concierge">
@@ -11,7 +12,6 @@ function BridalConcierge() {
         <div className="concierge__title2">Bridal</div>
         <div className="concierge__title3">Concierge</div>
       </div>
-
       <div className="concierge__content">
         <img src={ConciergeMainPhoto} className="ConciergeMainPhoto" />
         <div className="concierge__text-container">
@@ -22,7 +22,6 @@ function BridalConcierge() {
           </div>
           <div className="concierge__text-p2">Absolutely Heavenly! </div>
           <div className="concierge__text-p3">
-            {" "}
             Whether you are a Bride to be looking to make your day run
             emotionally smoother, or a Planner wanting a trusted liaison to your
             Client's "in-suite" dynamics throughout the day; Your luxury wedding
@@ -36,10 +35,9 @@ function BridalConcierge() {
             Of" Bridal Styling. I know how a wedding day feels for everyone
             involved - from the Bride's happy nerves mixed with complex family
             dynamics, to the planners side of schedule management and desire to
-            thrill!{" "}
+            thrill!
           </div>
           <div className="concierge__text-p5">
-            {" "}
             I act as your emotional tuning fork for the day. You can trust me to
             keep the Bride and all parties involved feeling good vibes only! I
             assist with managing the in-room schedule of hair/makeup, aiding the
@@ -47,7 +45,6 @@ function BridalConcierge() {
             communicating with the lead lanners on any timeline fluxuations.
           </div>
           <div className="concierge__text-p6">
-            {" "}
             All this, as well as utilizing my unique background and skill sets
             to help manage and mitigate any pesky "day of" emergencies around
             the Bride. I look forward to being part of the magic!

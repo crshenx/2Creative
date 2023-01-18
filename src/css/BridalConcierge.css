@@ -1,6 +1,6 @@
 .concierge{
-    height: 500px;
-    margin-top: 6rem;
+    /* height: 500px; */
+    margin-top: 5rem;
     position: relative;
 }
 
@@ -18,21 +18,12 @@
     position: relative;
     z-index: 3;
     margin: 0 auto;
-    /* background-color: #f1e8e0; */
-    /* height: 10rem; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* flex-direction: column; */
-    /* border-radius: 50%; */
     text-align: center;
     background-color: rgba(0,0,0,0);
     color: #a98b70;
     margin-top: 0rem;
     padding-top: 1.5rem;
     margin-bottom: 4rem;
-    
-    /* font-family: 'Gilda Display', serif; */
     font-family: 'Cormorant SC';
 }
 
@@ -114,6 +105,6 @@
     .paintSwatch1{
         width: 40%;
         position: absolute;
-       text-align: center;
+        text-align: center;
     }
 }

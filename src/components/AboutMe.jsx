@@ -2,8 +2,6 @@ import React from "react";
 import "../css/AboutMe.css";
 import AboutMePic from "../assets/AboutMePortrait.jpg";
 import AboutMeTitle from "../assets/AboutMeTitle.jpg";
-import AboutmeText from "../assets/AboutMeTextBackground.jpg";
-import BridalConcierge from "./BridalConcierge";
 
 function AboutMe() {
   return (
@@ -55,7 +53,6 @@ function AboutMe() {
           </div>
         </div>
       </div>
-      <BridalConcierge />
     </div>
   );
 }

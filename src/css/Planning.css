@@ -1,0 +1,33 @@
+.planning{
+    position: relative;
+}
+
+.planning-banner{
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    /* height: auto; */
+    position: relative;
+    border-radius: 10rem 10rem 0rem 0rem; 
+}
+
+.planning-title-container{
+    position: absolute;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Passions Conflict', cursive;
+    color: #faf9f5;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    background-color: rgba(0, 0, 0, 0);
+    bottom: 0;
+}
+
+.planning-title-container > div {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.planning-title-planning{
+    top: -3rem;
+    position: relative;
+}
