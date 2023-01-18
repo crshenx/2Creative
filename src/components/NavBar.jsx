@@ -7,7 +7,7 @@ function NavBar() {
     "Bridal Concierge",
     "Event Planning",
     "Testimonials",
-    "A Spontaneous Rythm",
+    "A Spontaneous Rhythm",
     "Contact",
   ];
   const divider = "✧";

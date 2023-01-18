@@ -18,10 +18,18 @@
 
 
 .about-me__background-pic {
-    background: url('../assets/AboutMeTextBackground.jpg')  center/ cover no-repeat;
+    /* background: url('../assets/AboutMeTextBackground.jpg')  center/ cover no-repeat; */
     /* width: 100%;
     height: auto;
     position: relative; */
+    background-color: #d3dae7;
+    padding: 1rem;
+    border: .5rem #fcfaf6 solid;
+    text-align: center;
+    border-radius: 12rem 12rem 3rem 3rem;
+    /* font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 300; */
 }
 
 
@@ -29,7 +37,7 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
     color: #faf9f5;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 .about-me__hey{
@@ -57,7 +65,7 @@
     /* width: 80%; */
     /* padding-left: 20%; */
     /* height: 130vh; */
-    margin: 0rem 1rem;
+    /* margin: 0rem 1rem; */
     text-align: center;
     position: relative;
 }
@@ -66,7 +74,7 @@
     width: 36%;
     float: left;
     background-color: rgba(0, 0, 0, 0);
-    border-radius: 37%;
+    border-radius: 4rem;
 }
 
 .about-me_text-container{
@@ -104,12 +112,13 @@
 }
 
 .about-xoxo-container{
-    padding-bottom: 4rem;
+    padding-bottom: -4rem;
     margin-top: 1rem;
     text-align: right;
     background: rgba(0,0,0,0);
     color: #faf9f5;
     position: relative;
+    margin-bottom: -6rem;
 }
 
 .about-xoxo{
@@ -157,6 +166,8 @@
     
     .about-xoxo-container {
         padding-bottom: 15%;
+        margin-bottom: 0;
     }
+    
 }
 
