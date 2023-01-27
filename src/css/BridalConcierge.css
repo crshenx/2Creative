@@ -23,17 +23,17 @@
     color: #a98b70;
     margin-top: 0rem;
     padding-top: 1.5rem;
-    margin-bottom: 4rem;
+    /* margin-bottom: 1rem; */
     font-family: 'Cormorant SC';
 }
 
 .concierge__title1{
     background-color: rgba(0,0,0,0);
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: left;
     margin-bottom: -1rem;
     
-    font-family: 'Passions Conflict', cursive;
+    /* font-family: 'Passions Conflict', cursive; */
     text-align: center;
 }
 .concierge__title2{
@@ -50,54 +50,40 @@
 
 .ConciergeMainPhoto{
     width: 100%;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
     z-index: 5;
 }
 
 .concierge__text-container{
-    background-color: #f1e8e0;
+    background-color: #edf0f5;
+    /* background-color: #f1e8e0; */
     padding: 1rem;
-    border: .5rem #fcfaf6 solid;
+    /* border: .5rem #fcfaf6 solid; */
     text-align: center;
-    border-radius: 3rem;
+    /* border-radius: 3rem; */
     color: #a98b70;
     font-family: 'Gilda Display', serif;
     /* font-family: 'Cormorant SC'; */
     font-style: normal;
     font-weight: 300;
 }
+.concierge__text-container > div {
+    background-color: #edf0f5;
+
+}
 
 .concierge__text-p1{
-    background-color: #f1e8e0;
-    /* padding: 1rem 1rem 1rem 0rem; */
-    /* text-indent: 1rem; */
-}
+    padding: 0rem;
+ } 
 .concierge__text-p2{
-    background-color: #f1e8e0;
-    /* text-indent: 1rem; */
-    /* color: #fcfaf6;
-    font-size: 4rem;    
-    font-family: 'Passions Conflict', cursive; */
+    background-color: #edf0f5;
     padding: 1rem 0rem;
 }
-.concierge__text-p3{
-    background-color: #f1e8e0;
-    /* text-indent: 1rem; */
-    padding-bottom: 1rem;
-}
-.concierge__text-p4{
-    background-color: #f1e8e0;
-    /* text-indent: 1rem; */
-    padding-bottom: 1rem;
-}
-.concierge__text-p5{
-    background-color: #f1e8e0;
-    /* text-indent: 1rem; */
-    padding-bottom: 1rem;
-}
-.concierge__text-p6{
-    background-color: #f1e8e0;
-    /* text-indent: 1rem; */
+.concierge__text-p3, 
+.concierge__text-p4, 
+.concierge__text-p5, 
+.concierge__text-p5,
+.concierge__text-p6 {
     padding-bottom: 1rem;
 }
 

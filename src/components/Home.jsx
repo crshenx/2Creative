@@ -3,7 +3,7 @@ import "../css/Home.css";
 import NavBar from "./NavBar";
 import AboutMe from "./AboutMe";
 import logo from "../assets/Logo.jpg";
-import bener from "../assets/AlishaBanner4.jpg";
+import banner from "../assets/newHomeBanner.jpg";
 import BridalConcierge from "./BridalConcierge";
 import Planning from "./Planning";
 
@@ -15,7 +15,7 @@ function Home() {
       </div>
       <NavBar />
       {/* <div className="home__banner"></div> */}
-      <img className="banner" src={bener} alt="" />
+      <img className="banner" src={banner} alt="" />
       <AboutMe />
       <BridalConcierge />
       <Planning />

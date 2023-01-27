@@ -6,11 +6,11 @@ import paintSwatch1 from "../assets/splooge1.jpg";
 function BridalConcierge() {
   return (
     <div className="concierge">
-      <img src={paintSwatch1} className="paintSwatch1" />
+      {/* <img src={paintSwatch1} className="paintSwatch1" /> */}
       <div className="concierge__title-box">
         <div className="concierge__title1">The Original</div>
-        <div className="concierge__title2">Bridal</div>
-        <div className="concierge__title3">Concierge</div>
+        <div className="concierge__title2">bridal</div>
+        <div className="concierge__title3">concierge</div>
       </div>
       <div className="concierge__content">
         <img src={ConciergeMainPhoto} className="ConciergeMainPhoto" />

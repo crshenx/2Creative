@@ -1,5 +1,5 @@
 .home{
-    height: 5000px;
+    height: auto;
 }
 
 .home__title{
@@ -9,9 +9,9 @@
 
 .home__title-logo{
     height: auto;
-    width: 30vh;
-    max-width: 350px;
-    margin-top: 2rem;
+    width: 13rem;
+    max-width: 25rem;
+    margin-top: 1rem;
     margin-bottom: 0rem;
 }
 

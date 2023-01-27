@@ -1,5 +1,5 @@
 .about-me{
-    
+    position: relative;
 }
 
 .about-me__title-container{
@@ -12,21 +12,26 @@
     width: 80%;
     height: auto;
     text-align: center;
-    /* margin-bottom: -1%; */
+    margin-bottom: 1.5rem;
 }
 
+.about-me__pic-container{
+    position: relative;
+    background: linear-gradient(to bottom, #faf9f5 70%, #f9ede2 30%)
+}
 
-
-.about-me__background-pic {
+.about-me__background {
     /* background: url('../assets/AboutMeTextBackground.jpg')  center/ cover no-repeat; */
     /* width: 100%;
     height: auto;
     position: relative; */
-    background-color: #d3dae7;
-    padding: 1rem;
-    border: .5rem #fcfaf6 solid;
+    /* background-color: #d3dae7; */
+    background-color:  #f9ede2;
+    padding: 0 1rem;
+    position:relative;
+    /* border: .5rem #fcfaf6 solid; */
     text-align: center;
-    border-radius: 12rem 12rem 3rem 3rem;
+    /* border-radius: 12rem 12rem 3rem 3rem; */
     /* font-family: 'Cormorant SC';
     font-style: normal;
     font-weight: 300; */
@@ -36,8 +41,11 @@
 .about-me__hey-container{
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
-    color: #faf9f5;
-    /* padding-top: 2rem; */
+    color: #b09882;
+    position: absolute;
+    top: -6rem;
+    left: 1rem;
+    /* padding-top: 2rem;*/
 }
 
 .about-me__hey{
@@ -47,7 +55,6 @@
     font-family: 'Passions Conflict', cursive;
     font-size: clamp(5rem, 5rem + 10vw, 20rem);
     display: inline;
-    
 }
 
 .about-me__there{
@@ -55,7 +62,7 @@
     font-weight: 100;
     font-family: 'Passions Conflict', cursive;
     position: relative;
-    top: 2rem;
+    top: 3rem;
     font-size: clamp(2rem, 5rem + 10vw, 10rem);
     display: inline;
     left: -1rem;
@@ -68,13 +75,19 @@
     /* margin: 0rem 1rem; */
     text-align: center;
     position: relative;
+    top: 3rem;
 }
 
 .about-me__pic{
-    width: 36%;
-    float: left;
+    width: 52%;
+    /* text-align: center; */
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    /* float: left; */
     background-color: rgba(0, 0, 0, 0);
-    border-radius: 4rem;
+    /* border-radius: 4rem; */
+    border-radius: 10rem 10rem 0rem 0rem;
 }
 
 .about-me_text-container{
@@ -116,7 +129,7 @@
     margin-top: 1rem;
     text-align: right;
     background: rgba(0,0,0,0);
-    color: #faf9f5;
+    color: #b09882;
     position: relative;
     margin-bottom: -6rem;
 }
