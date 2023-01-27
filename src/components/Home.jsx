@@ -6,6 +6,7 @@ import logo from "../assets/Logo.jpg";
 import banner from "../assets/newHomeBanner.jpg";
 import BridalConcierge from "./BridalConcierge";
 import Planning from "./Planning";
+import Testimonials from "./Testimonials";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <AboutMe />
       <BridalConcierge />
       <Planning />
+      <Testimonials />
     </div>
   );
 }
