@@ -167,4 +167,45 @@
 
 .inactive{
     display: none;
+    background-color: rgba(0,0,0,0);
+}
+
+@media (min-width: 41.932rem){
+    .btn{
+        display: none;
+    }
+    .text-title{
+        /* display: none; */
+    }
+    .inactive{
+        display:block;
+    }
+    .welcome{
+        border: 1px solid red;
+        display: flex;
+    }
+    .welcome-text{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .carte{
+        border: 1px solid red;
+    }
+
+    .month{
+        border: 1px solid red;
+    }
+    .full{
+        border: 1px solid red;
+    }
+    .planning_banner-container{
+        display: none;
+    }
+
+    .planning-content__text-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .planning-content-container{}
 }

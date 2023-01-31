@@ -14,24 +14,6 @@
     font-size: 3.5rem;
 }
 
-
-.qotation{
-    font-size: 10rem;
-    font-family: 'Coustard', serif;
-    display: block;
-    position: absolute;
-}
-
-
-.testimonial_opening-qotation{
-    
-}
-
-.testimonial_closing-qotation{
-    transform: rotateY(180deg);
-    /* writing-mode: tb; */
-}
-
 .testimonial__text{
     position:relative;
     margin: 1.3rem;
@@ -80,4 +62,10 @@
    /* margin-bottom: 1rem; */
    font-family: 'Cormorant SC';
    font-size: 1rem;
+}
+
+@media (min-width: 41.932rem){
+    .testimonial__title{
+        padding-top: 10rem;
+    }
 }

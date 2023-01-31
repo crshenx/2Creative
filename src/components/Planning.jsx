@@ -20,7 +20,7 @@ function Planning() {
       <div className="planning-content-container">
         <div className="planning-button-container">
           <div
-            className="btn welcome"
+            className="btn welcome-btn"
             onClick={() => {
               if (!activeButton1) setActiveButton1(true);
               setActiveButton2(false);
@@ -66,17 +66,21 @@ function Planning() {
           </div>
         </div>
         <div className="planning-content__text-container">
-          <div className={activeButton1 ? "active" : "inactive"}>
+          <div
+            className={activeButton1 ? "active welcome" : "inactive welcome"}
+          >
             <div className="text-title planning-content__text-title-welcome">
               Welcome
             </div>
-            It would be my honor to collaborate with you to make your dream day
-            a reality! I offer different levels and options of my planning
-            guidance to allow you to choose what best fits your needs. Take a
-            look at the brief descriptions below and choose what's right for
-            you!
+            <div className="welcome-text">
+              It would be my honor to collaborate with you to make your dream
+              day a reality! I offer different levels and options of my planning
+              guidance to allow you to choose what best fits your needs. Take a
+              look at the brief descriptions below and choose what's right for
+              you!
+            </div>
           </div>
-          <div className={activeButton2 ? "active" : "inactive"}>
+          <div className={activeButton2 ? "active carte" : "inactive carte"}>
             <div className="text-title planning-content__text-title-carte">
               A La Carte
             </div>
@@ -84,7 +88,7 @@ function Planning() {
             bursts of assistance from a professional. Each service is priced
             individually.PERFECT for mini events as well!
           </div>
-          <div className={activeButton3 ? "active" : "inactive"}>
+          <div className={activeButton3 ? "active month" : "inactive month"}>
             <div className="text-title planning-content__text-title-month">
               Month of
             </div>
@@ -93,7 +97,7 @@ function Planning() {
             final month before the event all the way through the end of the big
             day!{" "}
           </div>
-          <div className={activeButton4 ? "active" : "inactive"}>
+          <div className={activeButton4 ? "active full" : "inactive full"}>
             <div className="text-title planning-content__text-title-service">
               Full Service
             </div>

@@ -7,17 +7,20 @@ function AboutMe() {
   return (
     <div className="about-me">
       <div className="about-me__title-container">
-        <img src={AboutMeTitle} className="about-me__title" />
-      </div>
-      <div className="about-me__pic-container">
-        <img src={AboutMePic} className="about-me__pic" />
-      </div>
-      <div className="about-me__background">
-        <div className="about-me__hey-container">
-          <div className="about-me__hey">hey</div>
-          <div className="about-me__there">there</div>
+        {/* <img src={AboutMeTitle} className="about-me__title" /> */}
+        <div className="about-me__title-text">
+          {`There is nothing that fills me\n with more joy than helping \ncreate a joyous moment, \nexperience or memory for someone. \nI adore a good story!`}
         </div>
-        <div className="about-me__pic-and-text-container">
+      </div>
+      <div className="about-me__pic-and-text-container">
+        <div className="about-me__pic-container">
+          <img src={AboutMePic} className="about-me__pic" />
+        </div>
+        <div className="about-me__background">
+          <div className="about-me__hey-container">
+            <div className="about-me__hey">hey</div>
+            <div className="about-me__there">there</div>
+          </div>
           <div className="about-me_text-container">
             <p className="about-me__text-p1">
               My name is Alisha and I love, love. I love people in love. It is
