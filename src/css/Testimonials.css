@@ -68,4 +68,44 @@
     .testimonial__title{
         padding-top: 10rem;
     }
+
+    .try{
+        
+    }
+
+    .testimonial__container::before{
+        content: '';
+        position: absolute;
+        background: center / cover no-repeat url('../assets/BlackAndWhiteFullRoom.jpg');
+        /* width: 150%;
+        margin-left: 10rem; */
+        position: absolute;
+        top: -2rem;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.1;
+    }
+
+    .testimonial__container{
+        /* display: flex; */
+        position: relative;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        background-color: rgba(0,0,0,0);
+    }
+    
+    .testimonial__wrapper > div,
+    .testimonial__container > div {
+        /* flex-basis: 100%; */
+        background-color: rgba(0,0,0,0);
+        opacity: 1;
+    }
+
+    .testimonial__footer-client{
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0rem 4rem;
+    }
 }

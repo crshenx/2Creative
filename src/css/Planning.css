@@ -1,10 +1,12 @@
 .planning{
     /* position: relative; */
+    
 }
 
 .planning_banner-container{
-    position: relative;
-    background: linear-gradient(to bottom, #faf9f5 60%, #fde3df 40%)
+    /* position: relative; */
+    background: linear-gradient(to bottom, #faf9f5 60%, #fde3df 40%);
+    
 }
 
 .planning-banner{
@@ -19,6 +21,7 @@
     /* height: 90%; */
     /* overflow: hidden; */
     margin-bottom: -15%;
+    
 }
 
 .planning-title-container{
@@ -66,7 +69,7 @@
 }
 
 .planning-button-container { 
-    background-color: #fddad4; 
+    background-color: #fde3df; 
     display: flex;
     justify-content: space-around;
     
@@ -84,6 +87,7 @@
     transition: all 0.3s;
     position: relative;
     font-size: small;
+    background-color: #faf9f5;
 }
 
 .btn span {
@@ -131,6 +135,10 @@
 	transform: scale(0.1, 1);
 }
 
+.plannin__text{
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .planning-content__text-container{
     background-color: rgba(0,0,0,0);
     padding: 1rem 0rem;
@@ -170,7 +178,77 @@
     background-color: rgba(0,0,0,0);
 }
 
+.planning__divider-quote{
+    display: none;
+}
+
 @media (min-width: 41.932rem){
+    .planning{
+        /* display: flex; */
+        position: relative;
+    }
+
+    .planning__pic-text-wrapper::before{
+        content: '';
+        position: absolute;
+        background: center / cover no-repeat url('../assets/backgroundflowers.JPG');
+        /* border-radius: 1rem 1rem 1rem 1rem; */
+        /* background-image: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%), 
+        linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%), 
+        url(your-image-url);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-clip: content-box; */
+        /* width: 150%;
+        margin-left: 10rem; */
+        top: -2rem;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.1;
+    }
+
+    .planning__divider-quote{
+        position: relative;
+        margin: 1.3rem;
+        text-align: center;
+        /* border-radius: 3rem; */
+        color: #a98b70;
+        font-family: 'Cormorant SC';
+        /* font-family: 'Cormorant SC'; */
+        position: relative;
+        font-style: normal;
+        font-weight: 300;
+        font-size: clamp(1.3rem, 2.7vw, 2.4rem);
+        
+    }
+    
+    .planning__divider-quote:before {
+        content: "“";
+        font-family: 'Gilda Display', serif;
+        font-size: 20rem;
+        position: absolute;
+        left: -1rem;
+        top: -17rem;
+        transform: rotateX(180deg);
+        opacity: .15;
+    }
+    
+    .planning__divider-quote:after {
+        content: "”";
+        font-family: 'Gilda Display', serif;
+        font-size: 20rem;
+        position: absolute;
+        right: -1rem;
+        bottom: -17rem;
+        opacity: .15;
+    }
+
+    .planning__divider-quote{
+        display: block;
+    }
     .btn{
         display: none;
     }
@@ -180,32 +258,48 @@
     .inactive{
         display:block;
     }
-    .welcome{
-        border: 1px solid red;
+
+    .planning-content-container{
+        /* background: linear-gradient(to bottom, #faf9f5 0%, #ffe8e4 60%, #faf9f5 100%); */
+        background: rgba(0, 0, 0, 0);
         display: flex;
+    }
+    .welcome{
+        /* border: 1px solid red; */
+        /* display: flex; */
     }
     .welcome-text{
         background-color: rgba(0, 0, 0, 0);
     }
-    .carte{
-        border: 1px solid red;
+
+    .planning__pic-title{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem 0rem 1rem 0rem;
     }
 
-    .month{
-        border: 1px solid red;
-    }
-    .full{
-        border: 1px solid red;
-    }
+
     .planning_banner-container{
-        display: none;
+        /* background: linear-gradient(to bottom, #faf9f5 0%, #ffe8e4 60%, #faf9f5 100%); */
+        background: rgba(0, 0, 0, 0);
+    }
+    .planning-banner{
+        /* display: none; */
+        border-radius: 13rem 13rem 0rem 0rem;
+        clip-path: inset(0% 0% 0% 0%);
+        width: 80%;
+        margin: 0 auto;
     }
 
     .planning-content__text-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
+        padding: 0;
     }
 
-    .planning-content-container{}
+    .planning__pic-text-wrapper{
+        display: flex;
+        
+    }
 }
