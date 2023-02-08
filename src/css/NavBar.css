@@ -1,5 +1,6 @@
 .nav {
     display: none;
+   
 }
 
 .nav__mobile-expand-button {
@@ -34,6 +35,9 @@
         top: 0;
         height: auto;
         margin-left: 1vw;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding-top: 3rem;
     }
     
     .nav__item-parent{

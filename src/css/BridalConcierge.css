@@ -2,6 +2,8 @@
     /* height: 500px; */
     margin-top: 5rem;
     position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .paintSwatch1{
@@ -89,18 +91,26 @@
     background-color: rgba(0,0,0,0);
 }
 
-@media (min-width: 41.932rem){
-    .paintSwatch1{
-        width: 40%;
-        position: absolute;
-        text-align: center;
+
+@media (min-width: 40rem){
+    .concierge{
+        padding-bottom: 6rem;
+        }
+}
+
+@media (min-width: 60rem){
+    .concierge{
+    padding-bottom: 6rem;
     }
     .concierge__content{
         display: flex;
+        /* flex-wrap: wrap; */
+        /* flex: 1; */
         flex-direction: row-reverse;
         align-items: center;
         padding: 3rem 0rem;
     }
+    
 
     .concierge__title-and-img{
         display: flex;
