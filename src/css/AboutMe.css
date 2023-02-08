@@ -1,5 +1,5 @@
 .about-me{
-    
+    position: relative;
 }
 
 .about-me__title-container{
@@ -12,42 +12,69 @@
     width: 80%;
     height: auto;
     text-align: center;
-    /* margin-bottom: -1%; */
+    margin-bottom: 1.5rem;
 }
 
-
-
-.about-me__background-pic {
-    /* background: url('../assets/AboutMeTextBackground.jpg')  center/ cover no-repeat; */
-    /* width: 100%;
-    height: auto;
-    position: relative; */
-    background-color: #d3dae7;
-    padding: 1rem;
-    border: .5rem #fcfaf6 solid;
+.about-me__title-text{
+    position: relative;
+    margin: 1.3rem;
     text-align: center;
-    border-radius: 12rem 12rem 3rem 3rem;
-    /* font-family: 'Cormorant SC';
+    /* border-radius: 3rem; */
+    color: #a98b70;
+    font-family: 'Cormorant SC';
+    /* font-family: 'Cormorant SC'; */
+    position: relative;
     font-style: normal;
-    font-weight: 300; */
+    font-weight: 300;
+    font-size: clamp(1.3rem, 2.7vw, 2.4rem);
 }
 
+.about-me__title-text:before {
+    content: "“";
+    font-family: 'Gilda Display', serif;
+    font-size: 20rem;
+    position: absolute;
+    left: -1rem;
+    top: -17rem;
+    transform: rotateX(180deg);
+    opacity: .15;
+}
 
+.about-me__title-text:after {
+    content: "”";
+    font-family: 'Gilda Display', serif;
+    font-size: 20rem;
+    position: absolute;
+    right: -1rem;
+    bottom: -17rem;
+    opacity: .15;
+}
+
+.about-me__background {
+        background-color:  #f9ede2;
+        padding: 0 1rem;
+        position:relative;
+        text-align: center;
+}
+    
+    
 .about-me__hey-container{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0);
-    color: #faf9f5;
-    /* padding-top: 2rem; */
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0);
+        color: #b09882;
+        position: absolute;
+        top: -6.5rem;
+        left: 1rem;
 }
 
 .about-me__hey{
     background-color: rgba(0, 0, 0, 0);
-    font-weight: 100;
+    /* font-weight: 100; */
     position: relative;
     font-family: 'Passions Conflict', cursive;
-    font-size: clamp(5rem, 5rem + 10vw, 20rem);
+    /* font-size: clamp(5rem, 5rem + 10vw, 20rem); */
+    font-size: 7.5rem;
     display: inline;
-    
 }
 
 .about-me__there{
@@ -55,70 +82,60 @@
     font-weight: 100;
     font-family: 'Passions Conflict', cursive;
     position: relative;
-    top: 2rem;
-    font-size: clamp(2rem, 5rem + 10vw, 10rem);
+    top: 3rem;
+    /* font-size: clamp(2rem, 5rem + 10vw, 10rem); */
+    font-size: 5rem;
     display: inline;
     left: -1rem;
 }
 .about-me__pic-and-text-container{
-    background-color: rgba(0,0,0,0);
-    /* width: 80%; */
-    /* padding-left: 20%; */
-    /* height: 130vh; */
-    /* margin: 0rem 1rem; */
-    text-align: center;
+    
+}
+
+.about-me__pic-container{
     position: relative;
+    background: linear-gradient(to bottom, #faf9f5 70%, #f9ede2 30%)
 }
 
 .about-me__pic{
-    width: 36%;
-    float: left;
+    width: 50%;
+    max-width: 300px;
+    /* text-align: center; */
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    /* float: left; */
     background-color: rgba(0, 0, 0, 0);
-    border-radius: 4rem;
+    /* border-radius: 4rem; */
+    border-radius: 10rem 10rem 0rem 0rem;
 }
 
 .about-me_text-container{
     background-color: rgba(0,0,0,0);
+    text-align: center;
+    position: relative;
+    top: 3rem;
 }
 
-.about-me__text-p1{
+.about-me_text-container > p{
     background-color: rgba(0, 0, 0, 0);
     font-family: 'Gilda Display', serif;
     padding-bottom: 1rem;
-    font-size: clamp(1rem, 1.5vw, 2rem);
-    color: #b09882;
-}
-
-.about-me__text-p2{
-    background-color: rgba(0, 0, 0, 0);
-    font-family: 'Gilda Display', serif;
-    padding-bottom: 1rem;
-    font-size: clamp(1rem, 1.5vw, 2rem);
-    color: #b09882;
-}
-
-.about-me__text-p3{
-    background-color: rgba(0, 0, 0, 0);
-    font-family: 'Gilda Display', serif;
-    padding-bottom: 1rem;
-    font-size: clamp(1rem, 1.5vw, 2rem);
+    /* font-size: clamp(1rem, 1.5vw, 2rem); */
     color: #b09882;
 }
 .about-me__text-p4{
-    background-color: rgba(0, 0, 0, 0);
-    font-family: 'Gilda Display', serif;
-    font-size: clamp(1rem, 1.5vw, 2rem);
-    color: #b09882;
+    padding-bottom: 0;
 }
 
 .about-xoxo-container{
     padding-bottom: -4rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     text-align: right;
     background: rgba(0,0,0,0);
-    color: #faf9f5;
+    color: #b09882;
     position: relative;
-    margin-bottom: -6rem;
+    margin-bottom: -9rem;
 }
 
 .about-xoxo{
@@ -141,33 +158,72 @@
 }
 
 @media (min-width: 41.932rem){
-
-    .about-me__background-pic {
-        background: url('../assets/AboutMeTextBackground.jpg') center / contain no-repeat;
-        width: 100%;
-        height: auto;
-        position: relative;
+    .about-me__title-container{
+        padding: 0rem 1rem;
+        padding-top: 5rem;
     }
-    
+
+    .about-me__title-text {
+        margin: 4.3rem;
+    }
+
     .about-me__pic-and-text-container{
         background-color: rgba(0,0,0,0);
-        margin: 0rem 24%;
+        display: flex;
     }
+
+    .about-me__pic-container {
+        justify-content: center;
+        display: flex;
+        width: 50%;
+        background: linear-gradient(to bottom, #faf9f5 0%, #f9ede2 60%, #faf9f5 100%);
+        padding: 2rem 0;
+    }
+
     .about-me__pic {
-        width: 22%;
-        float: left;
+        width: initial;
+        max-width: 398px;
+        /* text-align: center; */
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        /* float: left; */
         background-color: rgba(0, 0, 0, 0);
-        border-radius: 37%;
+        /* border-radius: 4rem; */
+        border-radius: 13rem 13rem 0rem 0rem;
+        
     }
+
+    .about-me__background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        /* background-color: #f9ede2; */
+        /* background-color: #eeeff0; */
+        background: linear-gradient(to bottom, #faf9f5 0%, #f9ede2 60%, #faf9f5 100%);
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
     .about-me_text-container{
-        background-color: rgba(0,0,0,0);
-        margin: 1rem 1rem;
+        width: 81%;
+        top: initial;
+        padding: 2rem;
+        font-size: 1.1rem;
+        border: solid 0.3rem white;
     }
-    
+    .about-me__hey-container{
+        display: none;
+    }
+
     .about-xoxo-container {
-        padding-bottom: 15%;
-        margin-bottom: 0;
+        color: #b09882;
+        position: absolute;
+        bottom: -1rem;
+        right: 5rem;
     }
-    
+
+
 }
 
