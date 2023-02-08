@@ -16,7 +16,9 @@ function Home() {
       </div>
       <NavBar />
       {/* <div className="home__banner"></div> */}
-      <img className="banner" src={banner} alt="" />
+      <div className="home__banner-wrapper">
+        <img className="banner" src={banner} alt="" />
+      </div>
       <AboutMe />
       <BridalConcierge />
       <Planning />

@@ -82,18 +82,22 @@ function Planning() {
         right for you!
       </div>
       <div className="planning__pic-text-wrapper">
-        <div className="planning__pic-title">
-          <div className="planning-title-container">
-            <div className="planning-title-event">event</div>
-            <div className="planning-title-planning">planning</div>
+        <div className="planning__content-not-background">
+          <div className="planning__pic-title">
+            <div className="planning-title-container">
+              <div className="planning-title-event">event</div>
+              <div className="planning-title-planning">planning</div>
+            </div>
+            <div className="planning_banner-container">
+              <img src={PlanningBanner} className="planning-banner" />
+            </div>
           </div>
-          <div className="planning_banner-container">
-            <img src={PlanningBanner} className="planning-banner" />
+          <div className="planning-content-container">
+            <PlanningButtons buttonList={buttonList} />
+            <div className="planning-content__text-container">
+              {planningList}
+            </div>
           </div>
-        </div>
-        <div className="planning-content-container">
-          <PlanningButtons buttonList={buttonList} />
-          <div className="planning-content__text-container">{planningList}</div>
         </div>
       </div>
     </div>

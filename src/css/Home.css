@@ -1,7 +1,13 @@
 .home{
     /* height: auto; */
+    /* max-width: 1280px;
+    margin: 0 auto; */
+}
+
+.home__banner-wrapper{
     max-width: 1280px;
     margin: 0 auto;
+    
 }
 
 .home__title{
@@ -20,6 +26,7 @@
 .banner{
    width: 100%;
    padding: 1rem 0;
+   
 }
 /* .home__banner{
     background: url('../assets/AlishaBanner4.jpg') center top / contain no-repeat border-box;
@@ -29,8 +36,9 @@
 } */
 
 @media (min-width: 41.932rem){
- 
-
+    .home__banner-wrapper{
+    padding-top: 3rem;
+    }
     
 }
 

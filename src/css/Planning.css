@@ -15,7 +15,7 @@
     display: block;
     /* height: auto; */
     position: relative;
-    border-radius: 10rem 10rem 0rem 0rem; 
+    border-radius: 14rem 14rem 0rem 0rem; 
     /* background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); */
     clip-path: inset(0% 0% 15% 0%);
     /* height: 90%; */
@@ -192,18 +192,7 @@
         content: '';
         position: absolute;
         background: center / cover no-repeat url('../assets/backgroundflowers.JPG');
-        /* border-radius: 1rem 1rem 1rem 1rem; */
-        /* background-image: 
-        linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%), 
-        linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%), 
-        url(your-image-url);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-clip: content-box; */
-        /* width: 150%;
-        margin-left: 10rem; */
-        top: -2rem;
+        top: 3rem;
         right: 0px;
         bottom: 0px;
         left: 0px;
@@ -211,18 +200,15 @@
     }
 
     .planning__divider-quote{
-        position: relative;
-        margin: 1.3rem;
         text-align: center;
-        /* border-radius: 3rem; */
         color: #a98b70;
         font-family: 'Cormorant SC';
-        /* font-family: 'Cormorant SC'; */
         position: relative;
         font-style: normal;
         font-weight: 300;
         font-size: clamp(1.3rem, 2.7vw, 2.4rem);
-        
+        max-width: 1280px;
+        margin: 0 auto;
     }
     
     .planning__divider-quote:before {
@@ -300,6 +286,14 @@
 
     .planning__pic-text-wrapper{
         display: flex;
-        
+        margin-top: 1rem;
+        position: relative;
+    }
+
+    .planning__content-not-background{
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 3rem;
     }
 }
