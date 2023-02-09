@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/BridalConcierge.css";
 import ConciergeMainPhoto from "../assets/ConciergeMainPhoto.jpg";
+import AlishaFixesHair from "../assets/AlishaFixBridesHair.jpg";
+import AlishaHoldingDress from "../assets/AlishaHoldingDress.jpg";
 
 function BridalConcierge() {
   return (
@@ -12,7 +14,11 @@ function BridalConcierge() {
             <div className="concierge__title2">bridal</div>
             <div className="concierge__title3">concierge</div>
           </div>
-          <img src={ConciergeMainPhoto} className="ConciergeMainPhoto" />
+          {/* <img src={ConciergeMainPhoto} className="ConciergeMainPhoto" /> */}
+          <div className="concierge__content_photos-container">
+            <img src={AlishaHoldingDress} className="alishaholdingdress" />
+            <img src={AlishaFixesHair} className="alishafixeshair" />
+          </div>
         </div>
         <div className="concierge__text-container">
           <div className="textborder">

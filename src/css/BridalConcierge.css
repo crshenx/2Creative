@@ -1,7 +1,11 @@
 .concierge{
     /* height: 500px; */
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     position: relative;
+   
+}
+
+.concierge__content{
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -34,8 +38,6 @@
     font-size: 1rem;
     text-align: left;
     margin-bottom: -1rem;
-    
-    /* font-family: 'Passions Conflict', cursive; */
     text-align: center;
 }
 .concierge__title2{
@@ -50,28 +52,23 @@
     /* text-align: left; */
 }
 
-.ConciergeMainPhoto{
+/* .ConciergeMainPhoto{
     width: 100%;
-    /* padding-top: 3rem; */
     z-index: 5;
-}
+} */
 
 .concierge__text-container{
-    background-color: #edf0f5;
-    /* background-color: #f1e8e0; */
-    padding: 1rem;
-    /* border: .5rem #fcfaf6 solid; */
+    background-color: rgba(0,0,0,0);
     text-align: center;
-    /* border-radius: 3rem; */
     color: #a98b70;
     font-family: 'Gilda Display', serif;
-    /* font-family: 'Cormorant SC'; */
     font-style: normal;
     font-weight: 300;
+    padding-top: 8rem; 
 }
 .concierge__text-container > div {
-    /* background-color: #edf0f5; */
-    background-color: rgba(0,0,0,0);
+        background-color: rgba(0,0,0,0);
+         
 }
 
 .concierge__text-p1{
@@ -92,20 +89,80 @@
 }
 
 
+
+
+
+
+
+.concierge::before{
+    content: '';
+    position: absolute;
+    background: 0rem 1rem / cover no-repeat url(/src/assets/BlackAndWhiteAlishaHelpsBrideCropped.jpg);
+    top: 0rem;
+    right: 0px;
+    bottom: 0rem;
+    left: 0px;
+    opacity: 0.1;
+}
+
+/* .concierge__content_photos-container{
+    max-width: 50%;
+    margin: 0 auto;
+} */
+
+
+.alishaholdingdress{
+    display: inline-block;
+    width: 50%;
+    border-radius: 14rem 14rem 0rem 0rem;
+    z-index: 1;
+    position: relative;
+    left: 2rem;
+    top: 6rem;
+}
+.alishafixeshair{
+    display: inline-block;
+    width: 50%;
+    border-radius: 14rem 14rem 0rem 0rem;
+    z-index: 0;
+    right: 2rem;
+    bottom: 0rem;
+    position: relative;
+}
+
+
 @media (min-width: 40rem){
     .concierge{
-        padding-bottom: 6rem;
+        padding-bottom: 4rem;
         }
+
+        .concierge::before{
+            
+        }
+
+        .concierge__text-container {
+            padding: 7rem 1rem 1rem 1rem;
+        }
+
+
+        .concierge__content_photos-container{
+            max-width: 75%;
+            margin: 0 auto;
+        }
+
+
 }
 
 @media (min-width: 60rem){
     .concierge{
-    padding-bottom: 6rem;
+    /* padding-bottom: 6rem; */
+    }
+
+    .concierge::before{
+        bottom: 10rem;
     }
     .concierge__content{
         display: flex;
-        /* flex-wrap: wrap; */
-        /* flex: 1; */
         flex-direction: row-reverse;
         align-items: center;
         padding: 3rem 0rem;
@@ -129,9 +186,7 @@
     .concierge__title3{
         margin-top: 0;
     }
-  /* .concierge:not(.concierge__text-container){
-        display: flex;
-  } */
+
     .textborder{
         border: solid 0.3rem white;
         background-color: rgba(0,0,0,0);
@@ -140,6 +195,20 @@
     .concierge__text-container {
         /* background-color: red; */
         padding: 5rem 5rem;
-        background: linear-gradient(to bottom, #faf9f5 0%, #edf0f5 60%, #faf9f5 100%);
+        /* background: linear-gradient(to bottom, #faf9f5 0%, #edf0f5 60%, #faf9f5 100%); */
+        padding-top: 0;
+    }
+
+    .concierge__content_photos-container{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .alishaholdingdress{
+        left: 3rem;
+        top: 0rem;
+    }
+    .alishafixeshair{
+        bottom: 8rem;
     }
 }
+

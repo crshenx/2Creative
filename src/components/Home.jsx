@@ -7,6 +7,7 @@ import banner from "../assets/newHomeBanner.jpg";
 import BridalConcierge from "./BridalConcierge";
 import Planning from "./Planning";
 import Testimonials from "./Testimonials";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <BridalConcierge />
       <Planning />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
