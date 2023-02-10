@@ -75,6 +75,15 @@
     .nav__mobile-expand-button{
         display: none;
     }
+
+    .footer__nav-wrapper{
+        max-width: 100%;
+        /* background-color: red; */
+    }
+
+    .header-wrapper{
+        padding-bottom: 3rem;
+    }
 }
 
 @media (min-width: 76.704rem){

@@ -191,7 +191,7 @@
     .planning__pic-text-wrapper::before{
         content: '';
         position: absolute;
-        background: center / cover no-repeat url('../assets/backgroundflowers.JPG');
+        background: center / cover no-repeat url('../assets/backgroundflowers.jpg');
         top: 3rem;
         right: 0px;
         bottom: 0px;

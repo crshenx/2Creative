@@ -2,7 +2,7 @@ import React from "react";
 import MobileNav from "./MobileNav";
 import "../css/NavBar.css";
 
-function NavBar() {
+function NavBar({ className }) {
   const services = [
     "Bridal Concierge",
     "Event Planning",
@@ -46,8 +46,8 @@ function NavBar() {
   });
 
   return (
-    <div className="nav__wrapper">
-      <div className="nav">{navItems}</div>
+    <div className={`nav__wrapper ${className}-wrapper`}>
+      <div className={`nav ${className}`}>{navItems}</div>
       <MobileNav mobileNavItems={mobileNavItems} />
     </div>
   );

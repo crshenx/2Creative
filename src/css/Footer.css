@@ -2,15 +2,52 @@
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
-    max-width: 1280px;
-    margin: 0 auto;
+    /* max-width: 1280px;
+    margin: 0 auto; */
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    /* align-items: left; */
+    position: relative;
 }
 
-
-.logo {
-    width: 15rem;
-    /* justify-self: center; */
+.footer__logo{
     text-align: center;
+    display: block;
+    position: relative;
+    padding-top: 2rem;
+    margin: 0 auto;
+    width: 20rem;
 }
+
+.footer__title{
+    text-align: center;
+    /* color: #a98b70; */
+    font-family: 'Cormorant SC';
+    font-size: 2rem;
+    padding-bottom: 10rem;
+}
+
+.footer__info > div::before{
+    content: '';
+    position: absolute;
+    background: center / cover no-repeat url('/home/crshenx/AlishaPortfolio/alisha-hendricks/src/assets/MerciPartyGifts.jpg');
+    top: 0rem;
+    right: 0px;
+    bottom: 0rem;
+    left: 0px;
+    opacity: 0.06;
+}
+
+.footer__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 0rem 2rem 0rem;
+    color: #a98b70;
+    font-family: 'Cormorant SC';
+}
+
+.footer__info > div {
+    background-color: rgba(0, 0,0,0);
+}
+
