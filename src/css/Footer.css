@@ -18,6 +18,9 @@
     margin: 0 auto;
     width: 20rem;
 }
+.footer__logo:hover{
+    cursor: pointer;
+}
 
 .footer__title{
     text-align: center;

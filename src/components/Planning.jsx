@@ -1,4 +1,9 @@
-import React, { useState } from "react";
+import React, {
+  useState,
+  useRef,
+  useImperativeHandle,
+  forwardRef,
+} from "react";
 import PlanningBanner from "../assets/PlanningBanner.jpg";
 import "../css/Planning.css";
 import PlanningButtons from "./PlanningButtons";
@@ -37,9 +42,18 @@ final goodbye at the end of your best day ever!`,
   },
 ];
 
-function Planning() {
+const Planning = forwardRef((props, ref) => {
   const [buttonActive, setButtonActive] = useState(0);
-
+  const eventRef = useRef(null);
+  useImperativeHandle(
+    ref,
+    () => ({
+      scrollIntoView: () => {
+        eventRef.current.scrollIntoView({ behavior: "smooth" });
+      },
+    }),
+    []
+  );
   const planningList = planningContent.map((plan, i) => {
     return (
       <div
@@ -75,7 +89,7 @@ function Planning() {
   });
 
   return (
-    <div className="planning">
+    <div className="planning" ref={eventRef}>
       <div className="planning__divider-quote">
         It would be my honor to collaborate with you to make your dream day a
         reality! Take a look at the brief descriptions below and choose what's
@@ -102,6 +116,6 @@ function Planning() {
       </div>
     </div>
   );
-}
+});
 
 export default Planning;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef, useRef, useImperativeHandle } from "react";
 import Logo from "../assets/Logo.jpg";
 import "../css/Footer.css";
 // import Socials from "./Socials";
@@ -10,7 +10,21 @@ const contactInfo = [
   `@plus2creative <--instagram maybe move`,
 ];
 
-function Footer() {
+const Footer = forwardRef((props, ref) => {
+  const { toTop } = props;
+  const contactRef = useRef(null);
+  // const scrollTopRef = useRef(null);
+
+  useImperativeHandle(
+    ref,
+    () => ({
+      scrollIntoView: () => {
+        contactRef.current.scrollIntoView({ behavior: "smooth" });
+      },
+    }),
+    []
+  );
+
   const contactList = contactInfo.map((info, i) => {
     return (
       <div
@@ -23,8 +37,8 @@ function Footer() {
   });
 
   return (
-    <>
-      <img className="footer__logo" src={Logo} />
+    <div ref={contactRef}>
+      <img className="footer__logo" src={Logo} onClick={toTop} />
       <div className="footer__title">By Alisha Hendricks</div>
       <div className="footer">
         {/* <img className="logo" src={Logo} /> */}
@@ -33,8 +47,8 @@ function Footer() {
           {/* <Socials /> */}
         </div>
       </div>
-    </>
+    </div>
   );
-}
+});
 
 export default Footer;

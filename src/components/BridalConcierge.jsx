@@ -1,12 +1,22 @@
-import React from "react";
+import React, { forwardRef, useRef, useImperativeHandle } from "react";
 import "../css/BridalConcierge.css";
 import ConciergeMainPhoto from "../assets/ConciergeMainPhoto.jpg";
 import AlishaFixesHair from "../assets/AlishaFixBridesHair.jpg";
 import AlishaHoldingDress from "../assets/AlishaHoldingDress.jpg";
 
-function BridalConcierge() {
+const BridalConcierge = forwardRef((props, ref) => {
+  const bridalRef = useRef(null);
+  useImperativeHandle(
+    ref,
+    () => ({
+      scrollIntoView: () => {
+        bridalRef.current.scrollIntoView({ behavior: "smooth" });
+      },
+    }),
+    []
+  );
   return (
-    <div className="concierge">
+    <div ref={bridalRef} className="concierge">
       <div className="concierge__content">
         <div className="concierge__title-and-img">
           <div className="concierge__title-box1">
@@ -63,6 +73,6 @@ function BridalConcierge() {
       </div>
     </div>
   );
-}
+});
 
 export default BridalConcierge;

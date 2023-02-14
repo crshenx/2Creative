@@ -1,24 +1,30 @@
 .nav {
     display: none;
-   
 }
 
 .nav__mobile-expand-button {
-    display: block;
+    display: flex;
     position: fixed;
     margin: 0;
     top: 0;
-    margin-top: 8vh;
+    margin-top: 8rem;
     font-size: 1.2rem;
     color: dimgray;
     background-color: rgba(0, 0, 0, 0);
-    z-index: 100;
+    z-index: 10;
+    width: 100%;
 }
 .nav__mobile-open {
     display: flex;
     flex-direction: column;
     position: fixed;
     margin-top: 1rem;
+    width: 100%;
+    align-items: center;
+    font-size: 2rem;
+    /* padding: 1rem; */
+    z-index: 9;
+    height: 100vh;
 }
 .nav__mobile-closed {
     display: none;
@@ -54,6 +60,10 @@
         display: flex;
         font-size: 1.1rem;
         font-family: 'Cormorant SC', serif;
+    }
+
+    .nav__item:hover{
+        cursor: pointer;
     }
     
     .nav__divider{

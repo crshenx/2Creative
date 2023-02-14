@@ -1,11 +1,21 @@
-import React from "react";
+import React, { forwardRef, useRef, useImperativeHandle } from "react";
 import "../css/AboutMe.css";
 import AboutMePic from "../assets/AboutMePortrait.jpg";
-import AboutMeTitle from "../assets/AboutMeTitle.jpg";
+// import AboutMeTitle from "../assets/AboutMeTitle.jpg";
 
-function AboutMe() {
+const AboutMe = forwardRef((props, ref) => {
+  const aboutRef = useRef(null);
+  useImperativeHandle(
+    ref,
+    () => ({
+      scrollIntoView: () => {
+        aboutRef.current.scrollIntoView({ behavior: "smooth" });
+      },
+    }),
+    []
+  );
   return (
-    <div className="about-me">
+    <div id={`nav0`} ref={aboutRef} className="about-me">
       <div className="about-me__title-container">
         {/* <img src={AboutMeTitle} className="about-me__title" /> */}
         <div className="about-me__title-text">
@@ -59,6 +69,6 @@ function AboutMe() {
       </div>
     </div>
   );
-}
+});
 
 export default AboutMe;
