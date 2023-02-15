@@ -53,7 +53,7 @@
 }
 
 .about-me__background {
-        background-color:  #f9ede2;
+    background: linear-gradient(to bottom, #f9ede2 50%, #faf9f5 100%);
         padding: 0 1rem;
         position:relative;
         text-align: center;
@@ -97,7 +97,7 @@
 
 .about-me__pic-container{
     position: relative;
-    background: linear-gradient(to bottom, #faf9f5 70%, #f9ede2 30%)
+    background: linear-gradient(to bottom, #faf9f5 0%, #f9ede2 100%, #faf9f5 100%);
 }
 
 .about-me__pic{
@@ -164,7 +164,7 @@
 @media (min-width: 60rem){
 
     .about-me{
-        padding-bottom: 6.5rem;
+        padding-bottom: 10.5rem;
     }
     .about-me__background-wrap{
         background: linear-gradient(to bottom, #faf9f5 0%, #f9ede2 60%, #faf9f5 100%);
@@ -176,7 +176,7 @@
     }
 
     .about-me__title-text {
-        margin: 4.3rem;
+        margin: 5rem auto;
     }
 
     .about-me__pic-and-text-container{

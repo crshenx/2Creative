@@ -45,19 +45,26 @@ const NavBar = (props) => {
 
   let mobileNavItems = services.map((service, i) => {
     return (
-      <div className={`nav__mobile-item`} key={i} onClick={scrollToItem}>
+      <div
+        className={`nav__mobile-item`}
+        key={i}
+        onClick={scrollToItem}
+        data-node={camelCase(service.split(" ")[0])}
+      >
         {service}
       </div>
     );
   });
 
   return (
-    <>
+    <div className="nav__class">
       <div className={`nav__wrapper ${props.className}-wrapper`}>
         <div className={`nav ${props.className}`}>{navItems}</div>
       </div>
+      {/* <div className="nav__mobile-wrapper"> */}
       <MobileNav mobileNavItems={mobileNavItems} />
-    </>
+      {/* </div> */}
+    </div>
   );
 };
 

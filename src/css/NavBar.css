@@ -2,13 +2,20 @@
     display: none;
 }
 
+.nav__mobile-container{
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+    width: 70%;
+}
+
 .nav__mobile-expand-button {
-    display: flex;
+    display: inline-block;
     position: fixed;
     margin: 0;
-    top: 0;
-    margin-top: 8rem;
-    font-size: 1.2rem;
+    top: 8rem;
+    font-size: 2em;
     color: dimgray;
     background-color: rgba(0, 0, 0, 0);
     z-index: 10;
@@ -18,13 +25,20 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    margin-top: 1rem;
+    justify-content: center;
+    /* margin-top: 1rem; */
     width: 100%;
-    align-items: center;
+    align-items: left;
     font-size: 2rem;
     /* padding: 1rem; */
     z-index: 9;
     height: 100vh;
+    background: left -3rem center / cover no-repeat url(src/assets/AlishaHoldingDressBlackWhite.jpg);
+}
+
+.nav__mobile-open > div{
+    padding: 0rem 0rem 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0);
 }
 .nav__mobile-closed {
     display: none;

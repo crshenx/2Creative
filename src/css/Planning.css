@@ -5,7 +5,7 @@
 
 .planning_banner-container{
     /* position: relative; */
-    background: linear-gradient(to bottom, #faf9f5 60%, #fde3df 40%);
+    background: linear-gradient(to bottom, #faf9f5 0%, #fde3df 100%, #faf9f5 100%);
     
 }
 

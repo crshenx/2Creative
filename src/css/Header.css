@@ -8,6 +8,7 @@
 .header__title{
     text-align: center;
     position: relative; 
+    padding: 1rem 0rem 1rem 0rem;
 }
 
 .header__title-logo{
@@ -49,6 +50,9 @@
     padding-top: 3rem;
     }
     .header__banner-wrapper::before{}
+    .header__title{
+        padding: 0;
+    }
 }
 
 @media (min-width: 76.704rem) {
