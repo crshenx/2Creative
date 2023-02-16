@@ -1,6 +1,6 @@
 import React, { forwardRef, useRef, useImperativeHandle } from "react";
 import "../css/AboutMe.css";
-import AboutMePic from "../assets/AboutMePortrait.jpg";
+import AboutMePic from "../assets/AboutMePortraitResize.jpg";
 // import AboutMeTitle from "../assets/AboutMeTitle.jpg";
 
 const AboutMe = forwardRef((props, ref) => {

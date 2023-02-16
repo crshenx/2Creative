@@ -2,9 +2,9 @@ import React from "react";
 import "../css/Header.css";
 import NavBar from "./NavBar";
 import logo from "../assets/Logo.jpg";
-import flowers from "../assets/backgroundflowers.jpg";
-import settingTable from "../assets/PlanningBannerMirrored.jpg";
-import sunset from "../assets/SunsetWideScreen.jpg";
+import flowers from "../assets/backgroundflowersResize.jpg";
+import settingTable from "../assets/PlanningBannerMirroredResized.jpg";
+import sunset from "../assets/SunsetWideScreenResize.jpg";
 
 function Header({
   aboutRef,

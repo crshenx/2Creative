@@ -1,8 +1,7 @@
 import React, { forwardRef, useRef, useImperativeHandle } from "react";
 import "../css/BridalConcierge.css";
-import ConciergeMainPhoto from "../assets/ConciergeMainPhoto.jpg";
-import AlishaFixesHair from "../assets/AlishaFixBridesHair.jpg";
-import AlishaHoldingDress from "../assets/AlishaHoldingDress.jpg";
+import AlishaFixesHair from "../assets/AlishaFixBridesHairResize.jpg";
+import AlishaHoldingDress from "../assets/AlishaHoldingDressResize.jpg";
 
 const BridalConcierge = forwardRef((props, ref) => {
   const bridalRef = useRef(null);
