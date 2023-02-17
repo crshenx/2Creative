@@ -1,24 +1,44 @@
 .nav {
     display: none;
-   
+}
+
+.nav__mobile-container{
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+    width: 70%;
 }
 
 .nav__mobile-expand-button {
-    display: block;
+    display: inline-block;
     position: fixed;
     margin: 0;
-    top: 0;
-    margin-top: 8vh;
-    font-size: 1.2rem;
+    top: 8rem;
+    font-size: 2em;
     color: dimgray;
     background-color: rgba(0, 0, 0, 0);
-    z-index: 100;
+    z-index: 10;
+    width: 100%;
 }
 .nav__mobile-open {
     display: flex;
     flex-direction: column;
     position: fixed;
-    margin-top: 1rem;
+    justify-content: center;
+    /* margin-top: 1rem; */
+    width: 100%;
+    align-items: left;
+    font-size: 2rem;
+    /* padding: 1rem; */
+    z-index: 9;
+    height: 100vh;
+    background: left -3rem center / cover no-repeat url(src/assets/AlishaHoldingDressBlackWhite.jpg);
+}
+
+.nav__mobile-open > div{
+    padding: 0rem 0rem 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0);
 }
 .nav__mobile-closed {
     display: none;
@@ -37,7 +57,7 @@
         margin-left: 1vw;
         max-width: 1280px;
         margin: 0 auto;
-        padding-top: 3rem;
+        padding-top: 1rem;
     }
     
     .nav__item-parent{
@@ -54,6 +74,10 @@
         display: flex;
         font-size: 1.1rem;
         font-family: 'Cormorant SC', serif;
+    }
+
+    .nav__item:hover{
+        cursor: pointer;
     }
     
     .nav__divider{
@@ -74,6 +98,15 @@
     
     .nav__mobile-expand-button{
         display: none;
+    }
+
+    .footer__nav-wrapper{
+        max-width: 100%;
+        /* background-color: red; */
+    }
+
+    .header-wrapper{
+        padding-bottom: 3rem;
     }
 }
 

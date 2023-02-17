@@ -1,28 +1,43 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../css/Home.css";
-import NavBar from "./NavBar";
 import AboutMe from "./AboutMe";
-import logo from "../assets/Logo.jpg";
-import banner from "../assets/newHomeBanner.jpg";
 import BridalConcierge from "./BridalConcierge";
 import Planning from "./Planning";
 import Testimonials from "./Testimonials";
+import Footer from "./Footer";
+import Header from "./Header";
 
 function Home() {
+  const navbarRef = useRef(null);
+  const aboutRef = useRef(null);
+  const bridalRef = useRef(null);
+  const eventRef = useRef(null);
+  const testimonialsRef = useRef(null);
+  const contactRef = useRef(null);
+  const scrollTopRef = useRef(null);
+
+  function toTop() {
+    scrollTopRef.current.scrollIntoView({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+
   return (
-    <div className="home">
-      <div className="home__title">
-        <img src={logo} className="home__title-logo" />
-      </div>
-      <NavBar />
-      {/* <div className="home__banner"></div> */}
-      <div className="home__banner-wrapper">
-        <img className="banner" src={banner} alt="" />
-      </div>
-      <AboutMe />
-      <BridalConcierge />
-      <Planning />
-      <Testimonials />
+    <div className="home" ref={scrollTopRef}>
+      <Header
+        navbarRef={navbarRef}
+        aboutRef={aboutRef}
+        bridalRef={bridalRef}
+        eventRef={eventRef}
+        testimonialsRef={testimonialsRef}
+        contactRef={contactRef}
+      />
+      <AboutMe ref={aboutRef} />
+      <BridalConcierge ref={bridalRef} />
+      <Planning ref={eventRef} />
+      <Testimonials ref={testimonialsRef} />
+      <Footer ref={contactRef} scrollTopRef={scrollTopRef} toTop={toTop} />
     </div>
   );
 }

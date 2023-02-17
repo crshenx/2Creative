@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef, useImperativeHandle, useRef } from "react";
 import "../css/Testimonials.css";
 
 const testimonials = [
@@ -32,7 +32,17 @@ dream support. I’ll share with my clients!`,
   },
 ];
 
-function Testimonials() {
+const Testimonials = forwardRef((props, ref) => {
+  const testimonialsRef = useRef(null);
+  useImperativeHandle(
+    ref,
+    () => ({
+      scrollIntoView: () => {
+        testimonialsRef.current.scrollIntoView({ behavior: "smooth" });
+      },
+    }),
+    []
+  );
   const testimonialList = testimonials.map((testi, i) => {
     return (
       <div key={i} className={`testimonial__wrapper testimonial__${i}`}>
@@ -44,11 +54,11 @@ function Testimonials() {
     );
   });
   return (
-    <div className="testimonial">
+    <div ref={testimonialsRef} className="testimonial">
       <div className="testimonial__title">testimonials</div>
       <div className="testimonial__container">{testimonialList}</div>
     </div>
   );
-}
+});
 
 export default Testimonials;

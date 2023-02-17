@@ -1,0 +1,70 @@
+.header__banner-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__title{
+    text-align: center;
+    position: relative; 
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.header__title-logo{
+    height: auto;
+    width: 13rem;
+    max-width: 25rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.header{
+   width: 100%;
+   padding: 1rem 0;
+   
+}
+
+.header__banner-wrapper > img{
+    width: 30%;
+    border-radius: 13rem 13rem 0rem 0rem;
+    clip-path: inset(0% 0% 15% 0%);  
+}   
+
+.header__banner-wrapper::before{
+    content: '';
+    position: absolute;
+    background: center / cover no-repeat url('../assets/MerciPartyGiftsResize.jpg');
+    top: -1rem;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+}
+
+.header__sunset{}
+.header__flowers{}
+.header__setting{}
+
+@media (min-width: 41rem){
+    .home__banner-wrapper{
+    padding-top: 1rem;
+    }
+    .header__banner-wrapper{
+        padding-top: 4rem;
+    }
+
+ 
+    .header__title{
+        padding: 0;
+    }
+    .header__title-logo{
+        padding-top: 2rem;
+    }
+}
+
+@media (min-width: 76.704rem) {
+
+   
+    
+}

@@ -5,7 +5,7 @@
 
 .planning_banner-container{
     /* position: relative; */
-    background: linear-gradient(to bottom, #faf9f5 60%, #fde3df 40%);
+    background: linear-gradient(to bottom, #faf9f5 0%, #fde3df 100%, #faf9f5 100%);
     
 }
 
@@ -191,7 +191,7 @@
     .planning__pic-text-wrapper::before{
         content: '';
         position: absolute;
-        background: center / cover no-repeat url('../assets/backgroundflowers.JPG');
+        background: center / cover no-repeat url('../assets/backgroundflowersResize.jpg');
         top: 3rem;
         right: 0px;
         bottom: 0px;
@@ -206,9 +206,9 @@
         position: relative;
         font-style: normal;
         font-weight: 300;
-        font-size: clamp(1.3rem, 2.7vw, 2.4rem);
+        font-size: clamp(1.3rem, 2.5vw, 2.3rem);
         max-width: 1280px;
-        margin: 0 auto;
+        margin: 4rem auto;
     }
     
     .planning__divider-quote:before {
@@ -267,6 +267,7 @@
 
     .planning_banner-container{
         /* background: linear-gradient(to bottom, #faf9f5 0%, #ffe8e4 60%, #faf9f5 100%); */
+        
         background: rgba(0, 0, 0, 0);
     }
     .planning-banner{
