@@ -33,7 +33,8 @@
     /* padding: 1rem; */
     z-index: 9;
     height: 100vh;
-    background: left -3rem center / cover no-repeat url(src/assets/AlishaHoldingDressBlackWhite.jpg);
+    background: left -1rem center / cover no-repeat url(src/assets/AlishaHoldingDressBlackWhiteResize.jpg);
+    font-family: 'Cormorant SC', serif;
 }
 
 .nav__mobile-open > div{
