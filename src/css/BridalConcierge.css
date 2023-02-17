@@ -133,7 +133,7 @@
 
 @media (min-width: 40rem){
     .concierge{
-        padding-bottom: 5rem;
+        padding-bottom: 0rem;
         }
 
         .concierge::before{
@@ -159,7 +159,7 @@
     }
 
     .concierge::before{
-        bottom: 10rem;
+        bottom: 6rem;
     }
     .concierge__content{
         display: flex;

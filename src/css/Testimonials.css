@@ -65,9 +65,12 @@
 }
 
 @media (min-width: 41.932rem){
+    .testimonial{
+        padding-bottom: 2rem;
+    }
     .testimonial__title{
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-top: 3.5rem;
+        padding-bottom: 2.5rem;
     }
 
     .try{

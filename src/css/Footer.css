@@ -33,7 +33,7 @@
 .footer__info > div::before{
     content: '';
     position: absolute;
-    background: center / cover no-repeat url('/home/crshenx/AlishaPortfolio/alisha-hendricks/src/assets/MerciPartyGifts.jpg');
+    background: center / cover no-repeat url('/home/crshenx/AlishaPortfolio/alisha-hendricks/src/assets/MerciPartyGiftsResize.jpg');
     top: 0rem;
     right: 0px;
     bottom: 0rem;
