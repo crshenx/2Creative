@@ -206,14 +206,7 @@
     }
 
     .planning__pic-text-wrapper::before{
-        content: '';
-        position: absolute;
-        background: center / cover no-repeat url('../assets/backgroundflowersResize.jpg');
-        top: 3rem;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        opacity: 0.1;
+        top: 1rem;
     }
 
     .planning__divider-quote{
