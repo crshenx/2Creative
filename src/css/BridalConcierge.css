@@ -97,7 +97,7 @@
 .concierge::before{
     content: '';
     position: absolute;
-    background: center / cover no-repeat url('/src/assets/BlackAndWhiteAlishaHelpsBrideCropped.jpg');
+    background: 0rem -33rem/ cover no-repeat url('/src/assets/BlackAndWhiteAlishaHelpsBrideCropped.jpg');
     top: 0rem;
     right: 0px;
     bottom: 0rem;
@@ -159,7 +159,7 @@
     }
 
     .concierge::before{
-        bottom: 6rem;
+        bottom: 5rem;
     }
     .concierge__content{
         display: flex;
