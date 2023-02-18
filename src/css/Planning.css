@@ -1,11 +1,23 @@
 .planning{
-    /* position: relative; */
+    position: relative;
     
+}
+
+.planning__pic-text-wrapper::before{
+    content: '';
+    position: absolute;
+    background: center / cover no-repeat url('../assets/backgroundflowersResize.jpg');
+    top: 0rem;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
 }
 
 .planning_banner-container{
     /* position: relative; */
-    background: linear-gradient(to bottom, #faf9f5 0%, #fde3df 100%, #faf9f5 100%);
+    /* background: linear-gradient(to bottom, #faf9f5 0%, #fde3df 100%, #faf9f5 100%); */
+    background-color: rgba(0, 0, 0, 0);
     
 }
 
@@ -50,7 +62,8 @@
 
 
 .planning-content-container{
-    background-color: #fde3df;
+    background-color: rgba(0, 0, 0, 0);
+    /* background-color: #fde3df; */
     padding: 1rem;
     /* border: 0.5rem #fcfaf6 solid; */
     text-align: center;
@@ -69,7 +82,7 @@
 }
 
 .planning-button-container { 
-    background-color: #fde3df; 
+    background-color: rgba(0, 0, 0, 0); 
     display: flex;
     justify-content: space-around;
     
@@ -87,7 +100,11 @@
     transition: all 0.3s;
     position: relative;
     font-size: small;
-    background-color: #faf9f5;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn > span {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .btn span {
