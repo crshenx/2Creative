@@ -97,7 +97,7 @@
 .concierge::before{
     content: '';
     position: absolute;
-    background: 0rem -33rem/ cover no-repeat url('/src/assets/BlackAndWhiteAlishaHelpsBrideCropped.jpg');
+    background: 0rem 0rem/ cover no-repeat url('/src/assets/BlackAndWhiteAlishaHelpsBrideCropped.jpg');
     top: 0rem;
     right: 0px;
     bottom: 0rem;
@@ -137,7 +137,8 @@
         }
 
         .concierge::before{
-            
+            bottom: 0rem;
+            background-position: 0rem 0rem;
         }
 
         .concierge__text-container {
@@ -160,6 +161,7 @@
 
     .concierge::before{
         bottom: 5rem;
+        background-position: 0rem 0rem;
     }
     .concierge__content{
         display: flex;
@@ -209,6 +211,13 @@
     }
     .alishafixeshair{
         bottom: 8rem;
+    }
+}
+
+@media (min-width: 90rem){
+    .concierge::before{
+        bottom: 5rem;
+        background-position: 0rem -26rem;
     }
 }
 
