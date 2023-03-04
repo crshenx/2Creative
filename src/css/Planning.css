@@ -41,7 +41,7 @@
       text-align: center;
       font-size: 3.5rem;
       font-family: 'Cormorant SC';
-      color: #a98b70;
+      /* color: #a98b70; */
       /* left: 50%; */
       /* transform: translate(-50%, -111%); */
       background-color: rgba(0, 0, 0, 0);
@@ -68,7 +68,7 @@
     /* border: 0.5rem #fcfaf6 solid; */
     text-align: center;
     /* border-radius: 3rem; */
-    color: #a98b70;
+    /* color: #a98b70; */
     font-family: 'Gilda Display', serif;
     /* font-family: 'Cormorant SC'; */
     position: relative;
@@ -211,7 +211,7 @@
 
     .planning__divider-quote{
         text-align: center;
-        color: #a98b70;
+        /* color: #a98b70; */
         font-family: 'Cormorant SC';
         position: relative;
         font-style: normal;

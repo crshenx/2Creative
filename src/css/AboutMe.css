@@ -22,13 +22,13 @@
     margin: 1.3rem;
     text-align: center;
     /* border-radius: 3rem; */
-    color: #a98b70;
+    /* color: #a98b70; */
     font-family: 'Cormorant SC';
     /* font-family: 'Cormorant SC'; */
     position: relative;
     font-style: normal;
     font-weight: 300;
-    font-size: clamp(1.3rem, 2.7vw, 2.4rem);
+    font-size: clamp(1.3rem, 2.5vw, 2.3rem);
 }
 
 .about-me__title-text:before {
@@ -63,7 +63,7 @@
 .about-me__hey-container{
         text-align: center;
         background-color: rgba(0, 0, 0, 0);
-        color: #b09882;
+        /* color: #b09882; */
         position: absolute;
         top: -6.5rem;
         left: 1rem;
@@ -110,7 +110,7 @@
     /* float: left; */
     background-color: rgba(0, 0, 0, 0);
     /* border-radius: 4rem; */
-    border-radius: 10rem 10rem 0rem 0rem;
+    /* border-radius: 10rem 10rem 0rem 0rem; */
 }
 
 .about-me_text-container{
@@ -124,8 +124,6 @@
     background-color: rgba(0, 0, 0, 0);
     font-family: 'Gilda Display', serif;
     padding-bottom: 1rem;
-    /* font-size: clamp(1rem, 1.5vw, 2rem); */
-    color: #b09882;
 }
 .about-me__text-p4{
     padding-bottom: 0;
@@ -195,14 +193,10 @@
     .about-me__pic {
         width: initial;
         max-width: 398px;
-        /* text-align: center; */
         display: block;
         position: relative;
         margin: 0 auto;
-        /* float: left; */
         background-color: rgba(0, 0, 0, 0);
-        /* border-radius: 4rem; */
-        border-radius: 13rem 13rem 0rem 0rem;
         
     }
 
@@ -211,8 +205,6 @@
         justify-content: center;
         align-items: center;
         width: 50%;
-        /* background-color: #f9ede2; */
-        /* background-color: #eeeff0; */
         background: linear-gradient(to bottom, #faf9f5 0%, #f9ede2 60%, #faf9f5 100%);
         flex-wrap: wrap;
         margin: 0 auto;

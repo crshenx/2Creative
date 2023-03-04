@@ -26,7 +26,7 @@
     margin: 0 auto;
     text-align: center;
     background-color: rgba(0,0,0,0);
-    color: #a98b70;
+    /* color: #a98b70; */
     margin-top: 0rem;
     padding-top: 1.5rem;
     /* margin-bottom: 1rem; */
@@ -60,7 +60,7 @@
 .concierge__text-container{
     background-color: rgba(0,0,0,0);
     text-align: center;
-    color: #a98b70;
+    /* color: #a98b70; */
     font-family: 'Gilda Display', serif;
     font-style: normal;
     font-weight: 300;
@@ -103,6 +103,8 @@
     bottom: 0rem;
     left: 0px;
     opacity: 0.1;
+    background-attachment: fixed;
+    /* height: ; */
 }
 
 /* .concierge__content_photos-container{
